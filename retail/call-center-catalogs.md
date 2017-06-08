@@ -3,30 +3,34 @@ title: Call center catalogs
 description: "This article describes the call center–specific functionality for catalogs in Microsoft Dynamics 365 for Operations."
 author: josaw1
 manager: AnnBe
-ms.date: 2015-12-03 22 - 20 - 47
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16231
 ms.assetid: f28a827c-3a50-4d5e-83eb-e5a768db70a1
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: cbe1d17688097be18f73f92aefea6bec2a37fdbc
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 6609d2d653e761e97f075f928d5993e5cb5ba21d
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="call-center-catalogs"></a>Call center catalogs
+
+[!include[banner](includes/banner.md)]
+
 
 This article describes the call center–specific functionality for catalogs in Microsoft Dynamics 365 for Operations.
 
@@ -36,6 +40,8 @@ In a call center, you can use product catalogs to identify the products that you
 -   **Free products** – Products can be included in a customer's order at no additional charge. These products are automatically added to an order when the source code for the catalog is entered into the order.
 -   **Scripts** – Scripts are texts that a call center worker reads to a customer when a sales order is being created. Scripts can include greetings or purchase suggestions.
 -   **Page layout** – A page layout captures the page position of products in the printed catalog. This information is used for the catalog area analysis report.
+
+
 
 
 

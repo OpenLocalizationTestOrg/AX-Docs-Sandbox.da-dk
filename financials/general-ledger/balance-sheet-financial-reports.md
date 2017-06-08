@@ -3,29 +3,33 @@ title: Balance sheet financial reports
 description: This article describes the default reports for balance sheets. It also describes the building blocks that are associated with these reports.
 author: twheeloc
 manager: AnnBe
-ms.date: 2015-11-04 19 - 29 - 22
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 12274
 ms.assetid: 52f78229-f531-4d16-b337-e2628994acb6
 ms.search.region: Global
 ms.author: jcart
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: bf310eb9b959a7aef97def3099dac64e3474b1d8
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 1cb7ef4b1b08caff39f0693eef6743bbe5d3892e
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="balance-sheet-financial-reports"></a>Balance sheet financial reports
+
+[!include[banner](../includes/banner.md)]
+
 
 This article describes the default reports for balance sheets. It also describes the building blocks that are associated with these reports. 
 
@@ -77,5 +81,7 @@ The column definitions contain different types of columns to provide different l
 [View financial reports](view-financial-reports.md)
 
 [Dynamics Financial Reporting Blog](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

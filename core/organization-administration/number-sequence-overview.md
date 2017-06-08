@@ -3,10 +3,10 @@ title: Number sequence overview
 description: Number sequences in Microsoft Dynamics 365 for Operations are used to generate readable, unique identifiers for master data records and transaction records that require identifiers. A master data record or transaction record that requires an identifier is referred to as a <em>reference</em>.
 author: MargoC
 manager: AnnBe
-ms.date: 2015-12-03 20 - 19 - 22
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -14,17 +14,21 @@ ms.custom: 15461
 ms.assetid: 6e19bd1d-192b-4da2-8573-84f6e1ce98ef
 ms.search.region: Global
 ms.author: margoc
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 060c31975f332c159d0178b8d0d085e51d2a6095
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: a2dcbbbd0b67c171d5a26bbf2053d159f7367cc5
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="number-sequence-overview"></a>Number sequence overview
+
+[!include[banner](../includes/banner.md)]
+
 
 Number sequences in Microsoft Dynamics 365 for Operations are used to generate readable, unique identifiers for master data records and transaction records that require identifiers. A master data record or transaction record that requires an identifier is referred to as a <em>reference</em>.
 
@@ -73,6 +77,8 @@ Number sequences can be continuous or non-continuous. A continuous number sequen
 ### <a name="automatic-cleanup-of-number-sequences"></a>Automatic cleanup of number sequences
 
 In case of a power failure, an application error, or other unexpected failure, the system cannot recycle numbers automatically for continuous number sequences. You can run the cleanup process manually or automatically to recover the lost numbers. Carefully consider server usage when you plan the cleanup process. We recommend that you perform the cleanup as a batch job during non-peak hours.
+
+
 
 
 

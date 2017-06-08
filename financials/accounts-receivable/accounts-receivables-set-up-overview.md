@@ -3,30 +3,34 @@ title: Configure Accounts receivables and Credit and collections
 description: Configure Accounts receivable and Credit and Collections to track invoices and incoming payments from customers.
 author: twheeloc
 manager: AnnBe
-ms.date: 2015-12-12 19 - 13 - 03
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CashDisc, CollectionLetterCourse, CreditCardProcessors, CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsAgent, CustCollectionsPool, CustGroup, CustParameters, CustPaymMode, CustPosting, CustVendReportInterval, Interest, PaymTerm, Reasons
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 24631
 ms.assetid: 8c1fc7c5-b461-41ed-b102-2648cc58eb0b
 ms.search.region: Global
 ms.author: mfalkner
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: e61b2655faec8305af0f16e6474a962c0bbf4152
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 74556e571c215b0fea8deb061fd968c240b063d4
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>Configure Accounts receivables and Credit and collections
+
+[!include[banner](../includes/banner.md)]
+
 
 Configure Accounts receivable and Credit and Collections to track invoices and incoming payments from customers.
 
@@ -106,14 +110,8 @@ The following table lists the pages that support the configuration and maintenan
 |                                                      | Salesperson information              | Set up the email address for salespersons. These addresses will appear on the Collections page and you can use them to send email to a salesperson from that page.                                                                                                                |
 
  
+For more information, see [Credit and collections in Accounts receivable](collections-credit-accounts-receivable.md).
 
 
-
-<a name="see-also"></a>See also
---------
-
-[]()
-
-[Credit and collections in Accounts receivable](https://ax.help.dynamics.com/en/?p=5041)
 
 

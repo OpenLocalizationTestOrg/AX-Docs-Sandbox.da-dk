@@ -3,10 +3,10 @@ title: Configure a line-item workflow
 description: This topic explains how to configure a line-item workflow element.
 author: sericks007
 manager: AnnBe
-ms.date: 2016-09-30 15 - 59 - 28
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -14,17 +14,21 @@ ms.custom: 195833
 ms.assetid: 3237347e-71d5-4569-bc9a-0d0fc9410b78
 ms.search.region: Global
 ms.author: donaldc
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 40abe58ce09bbe8c7d6e87be208f01e7c6349532
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 2781a0344f1de5caf0031d7c3d5b88678be153a4
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="configure-a-line-item-workflow"></a>Configure a line-item workflow
+
+[!include[banner](../includes/banner.md)]
+
 
 This topic explains how to configure a line-item workflow element.
 
@@ -50,6 +54,8 @@ Follow these steps to specify whether the same workflow is used to process all t
     6.  To verify that the set of conditions that you entered is configured correctly, click **Test**. On the **Test workflow condition** page, in the **Validate condition** area, select a record, and then click **Test**. The system evaluates the record to determine whether it meets the conditions that you defined. Click **OK** or **Cancel** to return to the **Properties** page.
 
     On the **Workflow** tab, select the workflow select the workflow to use to process line items that meet the set of conditions that you defined.
+
+
 
 
 

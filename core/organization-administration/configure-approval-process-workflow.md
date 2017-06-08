@@ -3,10 +3,10 @@ title: Configure an approval process in a workflow
 description: Use the following procedure to configure the properties of the approval process.
 author: sericks007
 manager: AnnBe
-ms.date: 2016-09-30 15 - 54 - 17
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -14,17 +14,21 @@ ms.custom: 195643
 ms.assetid: f853f57b-83ae-4fb0-a9fa-06ea3fc34fa1
 ms.search.region: Global
 ms.author: donaldc
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: a4e39c286a371711ba7696db07d680ddb23f1bb5
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 159fe64b7a37ffdcbcd6c122116c2e110300122b
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="configure-an-approval-process-in-a-workflow"></a>Configure an approval process in a workflow
+
+[!include[banner](../includes/banner.md)]
+
 
 Use the following procedure to configure the properties of the approval process.
 
@@ -161,7 +165,9 @@ When a document is assigned to a user for approval, the user must act on the doc
 An approval process consists of approval steps. Complete the following procedure to add steps the approval process and configure the steps.
 1.  In the workflow editor, double-click the approval process. The workflow editor displays the steps of the approval process.
 2.  To add an approval step, drag the step from the **Workflow elements** area to the canvas.
-3.  To configure an approval step, see [Configure an approval step](http://axhelp.dynamics.com/en/wiki/configure-an-approval-step/).
+3.  To configure an approval step, see [Configure an approval step](configure-approval-step-workflow.md).
+
+
 
 
 

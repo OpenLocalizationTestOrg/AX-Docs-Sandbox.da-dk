@@ -1,30 +1,34 @@
 ---
 title: Purchase orders for a project
 description: This article describes the various methods that you can use to create purchase orders for a project. The method that you use depends on the purpose of the purchase order, and when the purchased items are consumed and charged to a project.
-author: kfend
+author: twheeloc
 manager: AnnBe
-ms.date: 2016-04-29 22 - 02 - 01
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 83972
 ms.assetid: 247e4d72-610b-4fa5-9873-601ed0f4b2d6
 ms.search.region: Global
 ms.author: kfend
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 27eed3960070af0ec7e914cf47a7ea52e3161836
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 6f9c31c3107714812104d75b6f088c15384b51ee
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="purchase-orders-for-a-project"></a>Purchase orders for a project
+
+[!include[banner](../includes/banner.md)]
+
 
 This article describes the various methods that you can use to create purchase orders for a project. The method that you use depends on the purpose of the purchase order, and when the purchased items are consumed and charged to a project.
 
@@ -53,7 +57,7 @@ You can use one of the following methods to create a purchase order in Project m
 <td>Use this method to purchase items from an external vendor for consumption on a project. You can create the purchase order in two ways:
 <ul>
 <li>From the project itself. In this case, the project is already defined for the purchase order.</li>
-<li>By navigating to the project purchase order. (Click <strong>Project management and accounting</strong> &gt; <strong>Common</strong> &gt; <strong>Item tasks</strong> &gt; <strong>Project purchase orders</strong>.) You must select both the vendor and the project to create the purchase order for.</li>
+<li>By navigating to the project purchase order. You must select both the vendor and the project to create the purchase order for.</li>
 </ul></td>
 <td>Items are consumed when the vendor invoice is updated.</td>
 </tr>
@@ -70,6 +74,9 @@ You can use one of the following methods to create a purchase order in Project m
 </tbody>
 </table>
 
-**Note:** When you update the vendor invoice or packing slip, you're prompted to update the packing slip on the item requirement.
+> [!NOTE] 
+> When you update the vendor invoice or packing slip, you're prompted to update the packing slip on the item requirement.
+
+
 
 

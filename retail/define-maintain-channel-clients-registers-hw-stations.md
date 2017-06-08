@@ -1,33 +1,37 @@
 ---
 title: Define and maintain channel clients, registers, and hardware stations
-description: This wiki covers how to connect peripherals to your Retail POS.
+description: This topic covers how to connect peripherals to your Retail POS.
 author: josaw1
 manager: AnnBe
-ms.date: 2016-06-15 20 - 49 - 33
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 92383
 ms.assetid: 83f31ea6-f0a2-4501-9d4d-a37b6eec2599
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 65b30c660644cb26a10a8c0ba8766e6640851cac
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 800e5c139b54541a179a336c8247eaa6017201d8
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="define-and-maintain-channel-clients-registers-and-hardware-stations"></a>Define and maintain channel clients, registers, and hardware stations
 
-This wiki covers how to connect peripherals to your Retail POS.
+[!include[banner](includes/banner.md)]
+
+
+This topic covers how to connect peripherals to your Retail POS.
 
 **Note:** For specific installation instructions, see [Retail hardware station configuration and installation](retail-hardware-station-configuration-installation.md) and [Retail Modern POS self-service download/installation, and device activation of Modern POS and Cloud POS](retail-modern-pos-device-activation.md).
 
@@ -65,11 +69,14 @@ Navigation: Click **Commerce** &gt; **Channel setup** &gt; **POS setup** &gt; **
 ## <a name="scenarios"></a>Scenarios
 ### <a name="mpos-with-connected-peripheral-devices"></a>MPOS with connected peripheral devices
 
-[![Traditional, fixed point of sale](./media/traditional-300x279.png)](./media/traditional.png) To connect MPOS to POS peripherals in a traditional, fixed POS scenario, first navigate to the register itself, and assign a hardware profile to it. You can find the POS registers at **Retail and commerce** &gt; **Channel setup** &gt; **POS setup** &gt; **Registers**. After you've assigned the hardware profile, sync changes to the channel database by using the “Registers” distribution schedule. You can find the distribution schedules at **Retail and commerce** &gt; **Retail IT** &gt; **Distribution schedule**. Next, set up a "local" hardware station on the channel. Click **Retail and commerce** &gt; **Channels** &gt; **Retail stores** &gt; **All retail stores**, and select a store. Then, on the **Hardware stations** FastTab, click **Add** to add a hardware station. Enter a description, enter **localhost** as the host name, and then sync the changes to the channel by using the “Channel configuration” distribution schedule. You can find the distribution schedules at **Retail and commerce** &gt; **Retail IT** &gt; **Distribution schedule**. Finally, in MPOS, use the **Select hardware station** operation to select the **localhost** hardware station. Set the hardware station to **Active**. The hardware profile that is used in this scenario should come from the POS register itself. A hardware station profile isn't required for this scenario. **Note:** Some hardware profile changes, such as changes to cash drawers, require that a new shift be opened after the changes have been synced to the channel. **Note:** Cloud POS must use the stand-alone hardware station to communicate with retail peripherals.
+[![Traditional, fixed point of sale](./media/traditional-300x279.png)](./media/traditional.png) 
+
+To connect MPOS to POS peripherals in a traditional, fixed POS scenario, first navigate to the register itself, and assign a hardware profile to it. You can find the POS registers at **Retail and commerce** &gt; **Channel setup** &gt; **POS setup** &gt; **Registers**. After you've assigned the hardware profile, sync changes to the channel database by using the “Registers” distribution schedule. You can find the distribution schedules at **Retail and commerce** &gt; **Retail IT** &gt; **Distribution schedule**. Next, set up a "local" hardware station on the channel. Click **Retail and commerce** &gt; **Channels** &gt; **Retail stores** &gt; **All retail stores**, and select a store. Then, on the **Hardware stations** FastTab, click **Add** to add a hardware station. Enter a description, enter **localhost** as the host name, and then sync the changes to the channel by using the “Channel configuration” distribution schedule. You can find the distribution schedules at **Retail and commerce** &gt; **Retail IT** &gt; **Distribution schedule**. Finally, in MPOS, use the **Select hardware station** operation to select the **localhost** hardware station. Set the hardware station to **Active**. The hardware profile that is used in this scenario should come from the POS register itself. A hardware station profile isn't required for this scenario. **Note:** Some hardware profile changes, such as changes to cash drawers, require that a new shift be opened after the changes have been synced to the channel. **Note:** Cloud POS must use the stand-alone hardware station to communicate with retail peripherals.
 
 ### <a name="mpos-or-cloud-pos-with-a-stand-alone-hardware-station"></a>MPOS or Cloud POS with a stand-alone hardware station
+[![Shared peripherals](./media/shared-300x254.png)](./media/shared.png)
 
-\[caption id="attachment\_340041" align="alignleft" width="300"\][![Shared peripherals](./media/shared-300x254.png)](./media/shared.png) Shared peripherals\[/caption\] In this scenario, a stand-alone hardware station is shared among MPOS and Cloud POS clients. This scenario requires that you create a hardware station profile to specify the download package, port, and hardware profile that the hardware station uses. You can find the hardware station profile at **Retail and commerce** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Hardware station profiles**. After you've created the hardware station profile, navigate to the specific retail channel (**Retail and commerce** &gt; **Channels** &gt; **Retail stores** &gt; **All retail stores**), and add a new hardware station. Map this new hardware station to the hardware station profile that was previously created. Next, provide a description that will help the cashier identify the hardware station. In the **Host name** field, enter the host machine URL in the following format: **https://&lt;MachineName:Port&gt;/HardwareStation**. (Replace **&lt;MachineName:Port&gt;** with the actual machine name of the hardware station and the port that is specified in the hardware station profile.) For a stand-alone hardware station, you should also specify the electronic funds transfer (EFT) terminal ID. This value identifies the EFT terminal that is connected to the hardware station when the payment connector communicates with the payment provider. Next, from the actual hardware station machine, navigate to the channel, and select the hardware station. Then click **Download**, and install the hardware station. Next, from MPOS or Cloud POS, use the **Select hardware station** operation to select the hardware station that was previously installed. Select **Pair** to establish a secure relationship between the POS and the hardware station. This step must be completed once for every combination of a POS and a hardware station. After the hardware station is paired, the same operation is used to make the hardware station active while it's used. For this scenario, the hardware profile should be assigned to the hardware station profile rather than the register itself. If for some reason a hardware station does not have a hardware profile directly assigned, then the hardware profile assigned to the register is used
+In this scenario, a stand-alone hardware station is shared among MPOS and Cloud POS clients. This scenario requires that you create a hardware station profile to specify the download package, port, and hardware profile that the hardware station uses. You can find the hardware station profile at **Retail and commerce** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Hardware station profiles**. After you've created the hardware station profile, navigate to the specific retail channel (**Retail and commerce** &gt; **Channels** &gt; **Retail stores** &gt; **All retail stores**), and add a new hardware station. Map this new hardware station to the hardware station profile that was previously created. Next, provide a description that will help the cashier identify the hardware station. In the **Host name** field, enter the host machine URL in the following format: **https://&lt;MachineName:Port&gt;/HardwareStation**. (Replace **&lt;MachineName:Port&gt;** with the actual machine name of the hardware station and the port that is specified in the hardware station profile.) For a stand-alone hardware station, you should also specify the electronic funds transfer (EFT) terminal ID. This value identifies the EFT terminal that is connected to the hardware station when the payment connector communicates with the payment provider. Next, from the actual hardware station machine, navigate to the channel, and select the hardware station. Then click **Download**, and install the hardware station. Next, from MPOS or Cloud POS, use the **Select hardware station** operation to select the hardware station that was previously installed. Select **Pair** to establish a secure relationship between the POS and the hardware station. This step must be completed once for every combination of a POS and a hardware station. After the hardware station is paired, the same operation is used to make the hardware station active while it's used. For this scenario, the hardware profile should be assigned to the hardware station profile rather than the register itself. If for some reason a hardware station does not have a hardware profile directly assigned, then the hardware profile assigned to the register is used
 
 ## <a name="client-maintenance"></a>Client maintenance
 ### <a name="registers"></a>Registers
@@ -152,5 +159,7 @@ Additional activation-related information includes the worker who changed the ac
 ### <a name="client-data-synchronization"></a>Client data synchronization
 
 All changes to a POS client, except changes in the device activation status, must be synced to the channel database to take effect. To sync changes to the channel database, navigate to **Retail and commerce** &gt; **Retail IT** &gt; **Distribution schedule**, and run the required distribution schedule. For client changes, you should run the “Registers” and “Channel configuration” distribution schedules.
+
+
 
 

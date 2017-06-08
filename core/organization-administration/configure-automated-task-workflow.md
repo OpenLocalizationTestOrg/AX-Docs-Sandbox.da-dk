@@ -3,10 +3,10 @@ title: Configure an automated task in a workflow
 description: This topic explains how to configure the properties for an automated task.
 author: sericks007
 manager: AnnBe
-ms.date: 2016-09-16 19 - 48 - 24
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -14,17 +14,21 @@ ms.custom: 192061
 ms.assetid: c0aceb57-b5e6-4ef3-91e7-89a21c9f048a
 ms.search.region: Global
 ms.author: donaldc
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: d3b600fc2c5df4d20ad78495376269b2ffdf70a8
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 358065dd127703191ba441d0603307a3b7e5df60
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="configure-an-automated-task-in-a-workflow"></a>Configure an automated task in a workflow
+
+[!include[banner](../includes/banner.md)]
+
 
 This topic explains how to configure the properties for an automated task.
 
@@ -102,6 +106,8 @@ You can send notifications to people when an automated task has been run or canc
     </table>
 
 8.  Repeat steps 3 through 7 for each event that you selected in step 2.
+
+
 
 
 

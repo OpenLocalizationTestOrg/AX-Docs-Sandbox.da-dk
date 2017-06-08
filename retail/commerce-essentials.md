@@ -3,29 +3,33 @@ title: Commerce essentials overview
 description: This article provides information about Commerce essentials, which is a retail point of sale (POS) and e-commerce configuration option for Microsoft Dynamics 365 for Operations. Commerce essentials provides an out-of-box retail workload that can help retailers quickly go live with a Microsoft Dynamics-based retail solution and lets them focus on retail-specific capabilities.
 author: josaw1
 manager: AnnBe
-ms.date: 2015-12-03 22 - 12 - 39
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16121
 ms.assetid: 61dced3e-8b6b-4c1f-af39-d20f4ab48659
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 98fc65bf90049231c689e28525a4a7ae8cbd08c7
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 948b9e8062836917257be20fc0dc5b945a90e9ba
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="commerce-essentials-overview"></a>Commerce essentials overview
+
+[!include[banner](includes/banner.md)]
+
 
 This article provides information about Commerce essentials, which is a retail point of sale (POS) and e-commerce configuration option for Microsoft Dynamics 365 for Operations. Commerce essentials provides an out-of-box retail workload that can help retailers quickly go live with a Microsoft Dynamics-based retail solution and lets them focus on retail-specific capabilities. 
 
@@ -42,5 +46,7 @@ Commerce essentials includes all the retail back-office capabilities that are bu
 
 ## <a name="how-is-commerce-essentials-different"></a>How is Commerce essentials different?
 In addition to providing unified navigation and retail-only pages, Commerce essentials hides all non-retail page elements, such as fields and controls. The result is a streamlined user interface that helps retailers focus on the task at hand. Retailers that have a full product license can use Commerce essentials as a starting point for more retail-oriented users. Other elements, such as advanced HR capabilities, can be added to Commerce essentials as they are required, according to the terms of the license agreement that is in place. As part of the streamlining and simplification that Commerce essentials provides, accounting export capability lets retailers map totals that are accrued in Commerce essentials to the account numbers in their existing accounting system. As the retail system generates financial data, this data can easily be exported from Commerce essentials into the retailer's accounting system. If more advanced integration capabilities are required, Commerce essentials also includes the full Import/Export framework that is included in Dynamics 365 for Operations. The hundreds of data entities that are included by default give Commerce essentials the flexibility to fit comfortably into a multi-tier environment where multiple specialized systems are used.
+
+
 
 

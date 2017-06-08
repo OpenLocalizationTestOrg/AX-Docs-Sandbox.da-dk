@@ -3,10 +3,10 @@ title: Configure a manual task in a workflow
 description: This topic explains how to configure the properties for a manual task.
 author: sericks007
 manager: AnnBe
-ms.date: 2016-09-16 19 - 50 - 02
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -14,17 +14,21 @@ ms.custom: 192191
 ms.assetid: 27f1afde-ff26-4b6f-8c11-27ec49130bbb
 ms.search.region: Global
 ms.author: donaldc
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 00ee9ea3dcfbe3d7be326ec02f7445760981f9bc
-ms.lasthandoff: 03/08/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5d2a69066a1245d5b86d27d01db4b67d4a490488
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="configure-a-manual-task-in-a-workflow"></a>Configure a manual task in a workflow
+
+[!include[banner](../includes/banner.md)]
+
 
 This topic explains how to configure the properties for a manual task.
 
@@ -102,13 +106,11 @@ Follow these steps to specify who the manual task should be assigned to.
     <td>Users in a specific organizational hierarchy</td>
     <td><ol>
     <li>After you select <strong>Hierarchy</strong>, on the <strong>Hierarchy selection</strong> tab, in the <strong>Hierarchy type</strong> list, select the type of hierarchy to assign the task to.</li>
-    <li>The system must retrieve a range of user names from the hierarchy. These names represent users that the task can be assigned to. Follow these steps to specify the starting point and ending point of the range of user names that the system retrieves:
-    <ol>
+    <li>The system must retrieve a range of user names from the hierarchy. These names represent users that the task can be assigned to. Follow these steps to specify the starting point and ending point of the range of user names that the system retrieves: <ol>
     <li>To specify the starting point, select a person in the <strong>Start from</strong> list.</li>
     <li>To specify the ending point, click <strong>Add condition</strong>. Then enter a condition that determines where in the hierarchy the system stops retrieving names.</li>
     </ol></li>
-    <li>On the <strong>Hierarchy options</strong> tab, specify which users in the range the task should be assigned to:
-    <ul>
+    <li>On the <strong>Hierarchy options</strong> tab, specify which users in the range the task should be assigned to: <ul>
     <li><strong>Assign to all users retrieved</strong> – The task is assigned to all users in the range.</li>
     <li><strong>Assign only to last user retrieved</strong> – The task is assigned to only the last user in the range.</li>
     <li><strong>Exclude users with the following condition</strong> – The task isn't assigned to users in the range who meet a specific condition. Click <strong>Add condition</strong> to specify the condition.</li>
@@ -135,13 +137,11 @@ Follow these steps to specify who the manual task should be assigned to.
     <td>A work item queue</td>
     <td><ol>
     <li>After you select <strong>Queue</strong>, click the <strong>Queue based</strong> tab.</li>
-    <li>To assign the task to a specific queue, follow these steps:
-    <ol>
+    <li>To assign the task to a specific queue, follow these steps: <ol>
     <li>In the <strong>Queue type</strong> list, select <strong>Work item queues</strong>.</li>
     <li>In the <strong>Queue name</strong> list, select the queue.</li>
     </ol></li>
-    <li>If a specific condition should determine which queue the task is assigned to, follow these steps:
-    <ol>
+    <li>If a specific condition should determine which queue the task is assigned to, follow these steps: <ol>
     <li>In the <strong>Queue type</strong> list, select <strong>Conditional work item queues</strong>.</li>
     <li>In the <strong>Queue name</strong> list, select <strong>Conditional queue</strong>.</li>
     </ol></li>
@@ -192,13 +192,11 @@ If a user doesn't complete the manual task in the allotted time, the task is ove
     <td>Users in a specific organizational hierarchy</td>
     <td><ol>
     <li>After you select <strong>Hierarchy</strong>, on the <strong>Hierarchy selection</strong> tab, in the <strong>Hierarchy type</strong> list, select the type of hierarchy to escalate the task to.</li>
-    <li>The system must retrieve a range of user names from the hierarchy. These names represent users that the task can be escalated to. Follow these steps to specify the starting point and ending point of the range of user names that the system retrieves:
-    <ol>
+    <li>The system must retrieve a range of user names from the hierarchy. These names represent users that the task can be escalated to. Follow these steps to specify the starting point and ending point of the range of user names that the system retrieves: <ol>
     <li>To specify the starting point, select a person in the <strong>Start from</strong> list.</li>
     <li>To specify the ending point, click <strong>Add condition</strong>. Then enter a condition that determines where in the hierarchy the system stops retrieving names.</li>
     </ol></li>
-    <li>On the <strong>Hierarchy options</strong> tab, specify which users in the range the task should be escalated to:
-    <ul>
+    <li>On the <strong>Hierarchy options</strong> tab, specify which users in the range the task should be escalated to: <ul>
     <li><strong>Assign to all users retrieved</strong> – The task is escalated to all users in the range.</li>
     <li><strong>Assign only to last user retrieved</strong> – The task is escalated to only the last user in the range.</li>
     <li><strong>Exclude users with the following condition</strong> – This task isn't escalated to users in the range who meet a specific condition. Click <strong>Add condition</strong> to specify the condition.</li>
@@ -343,6 +341,8 @@ When the manual task is assigned to a user, the user must take action on the tas
 5.  Select the **Delegate** check box if the user should be able to assign the task to another user.
 6.  Select the **Reassign** check box if the user should be able to reassign the task to another user in the work item queue.
 7.  Select the **Release** check box if the user should be able to reassign the task to the work item queue. Another user can then complete the task.
+
+
 
 
 

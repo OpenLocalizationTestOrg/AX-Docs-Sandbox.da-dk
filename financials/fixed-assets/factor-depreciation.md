@@ -3,30 +3,34 @@ title: Factor depreciation
 description: This article gives an overview of the factor depreciation method.
 author: twheeloc
 manager: AnnBe
-ms.date: 2015-12-02 22 - 57 - 58
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 13831
 ms.assetid: 2b6c4fe4-02ff-4191-bcad-32f1f34c15f2
 ms.search.region: Global
 ms.author: saraschi
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 854e287a7727fd9f0a3897b6802c6296ef8362c5
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 131045a5702f8c85be44ba1ebae1866c033850b9
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="factor-depreciation"></a>Factor depreciation
+
+[!include[banner](../includes/banner.md)]
+
 
 This article gives an overview of the factor depreciation method.
 
@@ -36,7 +40,10 @@ Factors are the percentages that are used to depreciate assets. When you set up 
 -   In digressive depreciation, the amount of depreciation per period decreases over time.
 -   In straight line depreciation, the depreciation is the same in each period.
 
-The rules and examples that follow indicate how you can set up factors for each type of depreciation. **Note:** When you select **Factor** in the **Method** field, the **Factor** field and the **Interval** field are displayed.
+The rules and examples that follow indicate how you can set up factors for each type of depreciation. 
+
+> [!NOTE] 
+> When you select **Factor** in the **Method** field, the **Factor** field and the **Interval** field are displayed.
 
 ## <a name="progressive-depreciation"></a>Progressive depreciation
 The value in the **Factor** field is more than **50**.
@@ -71,6 +78,8 @@ The acquisition price is 100,000, the factor is 20, the service life is 10 years
 | 6    | December 31 | 3,937.36            | 12,042.34             |
 
 ## <a name="straight-line-depreciation"></a>Straight line depreciation
-The value in the **Factor** field is equal to **50**. In this case, the depreciation is the same in each period, and you should consider the implications of the values that you have specified in other fields, as described in [Straight line service life depreciation](http://authoring.help.dynamics.com/en/wiki/Straight-line-service-life-depreciation/).
+The value in the **Factor** field is equal to **50**. In this case, the depreciation is the same in each period, and you should consider the implications of the values that you have specified in other fields, as described in [Straight line service life depreciation](straight-line-service-life-depreciation.md).
+
+
 
 

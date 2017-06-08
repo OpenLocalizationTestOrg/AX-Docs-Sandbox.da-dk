@@ -1,32 +1,36 @@
 ---
 title: Plan for one-time vendors in the public sector
 description: This article explains how to prepare to import and create multiple one-time vendors and invoices.
-author: rschloma
+author: twheeloc
 manager: AnnBe
-ms.date: 2015-12-13 05 - 20 - 08
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations
+ms.reviewer: twheeloc
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 27251
 ms.assetid: 936570cb-932f-4027-b3c7-2235ad79bc1c
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: brpotter
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 4e933bb05409dd5c6038809d4c26544adac9d172
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 208206a8f566db81206572638a2fa38687e8bfbb
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="plan-for-one-time-vendors-in-the-public-sector"></a>Plan for one-time vendors in the public sector
+
+[!include[banner](../includes/banner.md)]
+
 
 This article explains how to prepare to import and create multiple one-time vendors and invoices. 
 
@@ -38,135 +42,60 @@ Typically, if you plan to mass-import vendor and invoice information, you first 
 
 The following table show the fields that the import file must contain. Each field label is equivalent to a column heading in a spreadsheet, and each spreadsheet row contains the data for each applicable column.
 
-Field
-
-Details
-
 **Vendor section**
 
-Record type
+| Field                                          | Details                                                 |
+|------------------------------------------------|---------------------------------------------------------|
+|Record type                                     | **Person** or **Organization**                          |
+| First name                                     | (If the record type value is **Person**)                |
+| Middle name (Optional)                         | (If the record type is **Person**)                      |
+| Last name                                      | (If the record type is **Person**)                      |
+| Vendor name                                    | (If the record type is **Organization**)                |
+| Group                                          | Ten-character limit                                     |
+| Country/region                                 | Ten-character limit                                     |
+| ZIP/postal code                                |                                                         |
+| Street                                         |                                                         |
+| City                                           |                                                         |
+| City                                           |                                                         |
+|Federal tax ID (Optional)                       | (U.S. only) 1099 number                                 |
+| Tax ID type                                    | (U.S. only) Values can be **Unknown**, **Employer Identification Number**, **Social Security Number**, **Individual Taxpayer Identification Number**, or **Adopted Tax Payer Identification Number**.  **Note:** If no federal tax ID is provided, this field should be set to **Unknown**.                                               |
+| Bank account (Optional)                        | Bank account name                                       |
+| Bank account number                            |                                                         |
+| Routing number (Optional)                      |                                                         |
+| SWIFT code (Optional)                          | Also known as BIC (Bank identifier code)                |
+|IBAN (Optional)                                 | International bank account number, 34-character limit   |
 
-**Person** or **Organization**
 
-First name
-
-(If the record type value is **Person**)
-
-Middle name (Optional)
-
-(If the record type is **Person**)
-
-Last name
-
-(If the record type is **Person**)
-
-Vendor name
-
-(If the record type is **Organization**)
-
-Group
-
-Ten-character limit
-
-Country/region
-
-Ten-character limit
-
-ZIP/postal code
-
-Street
-
-City
-
-City
-
-Federal tax ID (Optional)
-
-(U.S. only) 1099 number
-
-Tax ID type
-
-(U.S. only) Values can be **Unknown**, **Employer Identification Number**, **Social Security Number**, **Individual Taxpayer Identification Number**, or **Adopted Tax Payer Identification Number**.**Note:** If no federal tax ID is provided, this field should be set to **Unknown**.
-
-Bank account (Optional)
-
-Bank account name
-
-Bank account number
-
-Routing number (Optional)
-
-SWIFT code (Optional)
-
-Also known as BIC (Bank identifier code)
-
-IBAN (Optional)
-
-International bank account number, 34-character limit
 
 **Invoice section**
 
-Invoice number
+| Field                                                | Details                                           |
+|------------------------------------------------------|---------------------------------------------------|
+| Invoice number                                       | Invoice number, 20-character limit                |
+| Invoice description (Optional)                       |                                                   |
+| Posting date (Optional)                              | Date format                                       |
+| Invoice date                                         | Date format                                       |
+| Due date (Optional)                                  | Date format                                       |
+| Line number                                          |                                                   |
+|Item number (Optional)                                | 20-character limit   **Note:** If no item number is provided, you must provide values in the **Procurement category** and **Procurement category hierarchy** fields. If no procurement category and procurement category hierarchy are provided, you must provide a value in the **Item number** field.                    |
+| Item name (Optional)                                 |  60-character limit                               |
+| Procurement category hierarchy (Optional)            |    **Note:** If you provide a value for this field, the **Procurement category** field is also required.                                                                         |
+| Procurement category (Optional)                      | **Note:** If you provide a value for this field, the **Procurement category hierarchy** field is also required.                                                                        |
+| Quantity (Optional)                                  |                                                   |
+| Unit (Optional)                                      | Ten-character limit                               |
+|Line net amount                                       | Decimal values are allowed.                       |
+| Unit price (Optional)                                | Decimal values are allowed.                       |
 
-Invoice number, 20-character limit
-
-Invoice description (Optional)
-
-Posting date (Optional)
-
-Date format
-
-Invoice date
-
-Date format
-
-Due date (Optional)
-
-Date format
-
-Line number
-
-Item number (Optional)
-
-20-character limit**Note:** If no item number is provided, you must provide values in the **Procurement category** and **Procurement category hierarchy** fields. If no procurement category and procurement category hierarchy are provided, you must provide a value in the **Item number** field.
-
-Item name (Optional)
-
-60-character limit
-
-Procurement category hierarchy (Optional)
-
-**Note:** If you provide a value for this field, the **Procurement category** field is also required.
-
-Procurement category (Optional)
-
-**Note:** If you provide a value for this field, the **Procurement category hierarchy** field is also required.
-
-Quantity (Optional)
-
-Unit (Optional)
-
-Ten-character limit
-
-Line net amount
-
-Decimal values are allowed.
-
-Unit price (Optional)
-
-Decimal values are allowed.
 
 **Distributions section**
+| Field                                                | Details                                  |
+|------------------------------------------------------|------------------------------------------|
+| Number                                               | Accounting distribution line number      |
+| Ledger account                                       |                                          |
+| Percent                                              | Decimal values are allowed.              |
 
-Number
 
-Accounting distribution line number
 
-Ledger account
-
-Percent
-
-Decimal values are allowed.
 
 ## <a name="what-do-i-do-next"></a>What do I do next?
 After you’ve set up the prerequisites that you require, see [One time vendors in the public sector](one-time-vendors-public-sector.md).
@@ -177,5 +106,7 @@ After you’ve set up the prerequisites that you require, see [One time vendors 
 [One-time vendors in the public sector](one-time-vendors-public-sector.md)
 
 [Accounts payable in the public sector](accounts-payable-public-sector.md)
+
+
 
 

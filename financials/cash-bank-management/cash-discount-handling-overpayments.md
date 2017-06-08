@@ -3,30 +3,34 @@ title: Handling cash discounts for overpayments
 description: This article provides scenarios that show how a payment is handled when the customer takes a cash discount but also overpays.
 author: twheeloc
 manager: AnnBe
-ms.date: 2015-12-02 23 - 14 - 39
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 14171
 ms.assetid: a94d0fd0-57ba-4054-93c8-519d01d50e19
 ms.search.region: Global
 ms.author: kweekley
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 426ea9968a7a2689e8d93eb6df45c92ca1500f25
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: f5d75794146eada9b9f439d99ad272f5af8db53b
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="handling-cash-discounts-for-overpayments"></a>Handling cash discounts for overpayments
+
+[!include[banner](../includes/banner.md)]
+
 
 This article provides scenarios that show how a payment is handled when the customer takes a cash discount but also overpays. 
 
@@ -133,6 +137,8 @@ The cash discount amount is reduced from 10.50 to 10.00. The payment and invoice
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
 | Cash discount (the **Main account for customer discounts** field on the **Cash discounts** page) | 10.50        |               |
 | Accounts receivable                                                                              |              | 10.50         |
+
+
 
 
 

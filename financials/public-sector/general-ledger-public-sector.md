@@ -3,31 +3,35 @@ title: General ledger in the public sector
 description: This topic describes the General ledger functionality that is available for the public sector.
 author: rschloma
 manager: AnnBe
-ms.date: 2015-12-13 05 - 19 - 30
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AdvancedLedgerEntry, JournalizingDefinition, LedgerDerivedFinHierarchies, LedgerFundType, LedgerParameters
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 27211
 ms.assetid: d737c743-e224-4a30-b4c3-e9568eaddd8c
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: brpotter
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 7e802e4ac4e4e61e0746c7d3d3ff62bfa3533293
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5c5d69ba65c912a78d7c145d7ac1c1831a6591d2
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="general-ledger-in-the-public-sector"></a>General ledger in the public sector
+
+[!include[banner](../includes/banner.md)]
+
 
 This topic describes the General ledger functionality that is available for the public sector.
 
@@ -60,6 +64,8 @@ You can use derived financial hierarchies to collect and analyze posted transact
 <a name="see-also"></a>See also
 --------
 
-[General ledger](general-ledger.md)
+[General ledger](../general-ledger/general-ledger.md)
+
+
 
 

@@ -3,10 +3,10 @@ title: Electronic signature overview
 description: This article provides an overview of electronic signatures and describes how they can be used in Microsoft Dynamics 365 for Operations.
 author: maertenm
 manager: AnnBe
-ms.date: 2015-12-02 21 - 19 - 12
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SIGParameters, SIGProcSetup, SIGReasonCode
 audience: Application User
@@ -15,17 +15,21 @@ ms.custom: 13611
 ms.assetid: 98dc6b79-1895-45d8-9dd1-2c8a351b58af
 ms.search.region: Global
 ms.author: maertenm
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 31905da33ce0a752032ffeb186fad139b372a084
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5adf45769657e4da81af00b2114a2c1a98655207
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="electronic-signature-overview"></a>Electronic signature overview
+
+[!include[banner](../includes/banner.md)]
+
 
 This article provides an overview of electronic signatures and describes how they can be used in Microsoft Dynamics 365 for Operations.
 
@@ -35,7 +39,7 @@ This article provides an overview of electronic signatures and describes how the
 An electronic signature confirms the identity of a person who is about to start or approve a computing process. In some industries, an electronic signature is as legally binding as a handwritten signature. Electronic signatures are a regulations compliance requirement for several regulated industries, such as pharmaceuticals, food and beverage, and aerospace and defense. They are also required for compliance with regulations in 21 CFR Part 11 that was issued by the Food and Drug Administration (FDA) in the United States. **Note:** An electronic signature by itself isn't the same as a digital signature. An electronic signature is just a substitute for a handwritten signature, whereas a digital signature provides additional security measures. A digital signature can help identify whether another user or process has tampered with the data. A digital signature can also be verified, and this verification can't be refuted by the owner of the certificate that was used to sign the data. As described below, electronic signatures in Microsoft Dynamics 365 for Operations have built-in digital signature functionality.
 
 ## <a name="electronic-signatures-in-dynamics-365-for-operations"></a>Electronic signatures in Dynamics 365 for Operations
-In Dynamics 365 for Operations, you can use electronic signatures for critical business processes. Some processes have built-in electronic signature capabilities. You can also create custom signature requirements for any database table and field. Electronic signatures have built-in digital signature functionality. Every user who signs documents must obtain a valid cryptographic certificate. When a document is signed, the private key that is associated with that certificate is validated. Dynamics 365 for Operations records electronic signature information in a log to provide an audit trail. To set up electronic signatures, see [Set up electronic signatures](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/).
+In Dynamics 365 for Operations, you can use electronic signatures for critical business processes. Some processes have built-in electronic signature capabilities. You can also create custom signature requirements for any database table and field. Electronic signatures have built-in digital signature functionality. Every user who signs documents must obtain a valid cryptographic certificate. When a document is signed, the private key that is associated with that certificate is validated. Dynamics 365 for Operations records electronic signature information in a log to provide an audit trail. To set up electronic signatures, see [Set up electronic signatures (Task guide)](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/).
 
 ## <a name="users-who-require-access-to-electronic-signatures"></a>Users who require access to electronic signatures
 Three kinds of users typically require security access to electronic signatures: electronic signature administrators, signers, and electronic signature auditors.
@@ -78,6 +82,8 @@ Occasionally, you might want a user to sign for another user's changes. For exam
 1.  On the **Options** page, on the **Accounts** tab, click **Designate approver**.
 2.  In the **Approver user ID** field, select the ID of the user who must sign for another user's changes.
 3.  In the **Sign for user ID** field, select the ID of the user whose changes must be signed for.
+
+
 
 
 

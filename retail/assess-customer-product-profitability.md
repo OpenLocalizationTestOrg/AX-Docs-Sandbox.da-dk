@@ -3,29 +3,33 @@ title: Assess customer and product profitability
 description: This article explains how you can use the in-memory and real-time analytics to access, explore, and gain insight about customers and product profitability from your Microsoft Dynamics 365 for Operations data.
 author: josaw1
 manager: AnnBe
-ms.date: 2016-02-24 15 - 00 - 32
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 52902
 ms.assetid: 1a77d04b-2985-4bee-9138-c216fe0483de
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: fde1304c0379364ce50e2c80c371d1128745048f
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: d32c1b87417b69e5564c4b0e73e867cff511a8f1
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="assess-customer-and-product-profitability"></a>Assess customer and product profitability
+
+[!include[banner](includes/banner.md)]
+
 
 This article explains how you can use the in-memory and real-time analytics to access, explore, and gain insight about customers and product profitability from your Microsoft Dynamics 365 for Operations data. 
 
@@ -54,6 +58,6 @@ For this assessment, you can use the out-of-box **Top products** report, which y
 -   **Category and product management** workspace Dynamics 365 for Operations &gt; **Retail and commerce** &gt; **Products and categories** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**
 -   **Inquiries and reports** section Dynamics 365 for Operations &gt; **Retail and commerce** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Top products report**
 
-For more information, see [Creating next-generation reporting solutions](create-nextgen-reporting-solutions.md).
+
 
 

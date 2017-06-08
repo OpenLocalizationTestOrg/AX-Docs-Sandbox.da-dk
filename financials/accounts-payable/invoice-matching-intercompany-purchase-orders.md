@@ -3,30 +3,34 @@ title: Invoice matching and intercompany purchase orders
 description: The purchasing legal entity that is involved in an intercompany trade transaction might be set up to use accounts payable invoice matching. In this case, the posting requirements for both intercompany trade and accounts payable invoice matching must be met before intercompany vendor invoices can be posted.
 author: twheeloc
 manager: AnnBe
-ms.date: 2015-09-10 20 - 21 - 21
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 3101
 ms.assetid: 9c7c2e44-45f8-4325-b6de-a09fe790f9cf
 ms.search.region: Global
 ms.author: abruer
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: bf487658a6b397f219a87434eb905c1d73b65ad9
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 07c101b886d33fa5fc9e8129230ca270f48c5217
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Invoice matching and intercompany purchase orders
+
+[!include[banner](../includes/banner.md)]
+
 
 The purchasing legal entity that is involved in an intercompany trade transaction might be set up to use accounts payable invoice matching. In this case, the posting requirements for both intercompany trade and accounts payable invoice matching must be met before intercompany vendor invoices can be posted.
 
@@ -64,6 +68,8 @@ For example, you follow these steps.
 2.  In Fabrikam Sales, perform an invoice update for ICSO999. Posting is unsuccessful, because the item is out of stock and has not yet been received. Therefore, the financial information cannot be updated.
 3.  In Fabrikam Sales, register that the items have been received, and post a packing slip for ICSO999. A product receipt for ICPO333 is automatically posted in Fabrikam Purchase. In Fabrikam Purchase, the received quantity for item B-R14 changes to 100.
 4.  In Fabrikam Sales, perform an invoice update for ICSO999. Posting is successful in both legal entities. In Fabrikam Purchase, the quantity that is purchased for item B-R14 changes to 100.
+
+
 
 
 

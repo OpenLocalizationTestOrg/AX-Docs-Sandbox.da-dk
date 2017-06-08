@@ -3,29 +3,33 @@ title: Personalized product recommendations overview
 description: "In Dynamics 365 for Operations, product recommendations can be displayed on the point of sale (POS) device. The recommendations are items that the customer might be interested in based on their purchase history, items in their wish list, and items that other customers purchased online and in brick-and-mortar stores. For retailers with large catalogs, recommendations help the customer with product discovery. By showcasing products targeted to a customer’s interests and buying habits, product recommendations can help retailers with up-sell and cross-sell, and can enhance customer retention. In Dynamics 365 for Operations, product recommendations are powered by cognitive services and Microsoft Azure machine learning."
 author: josaw1
 manager: AnnBe
-ms.date: 2016-11-28 23 - 43 - 23
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations
+ms.search.scope: Operations, Core
 ms.custom: 259664
 ms.assetid: 5dd8db08-cd96-4f7e-9e65-b05ca815d580
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
-ms.dyn365.ops.intro: 01-11-2016
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: c63903a4761b48005fd14f80001b9d45ac50baaa
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: edacd4cc9f9db59617bc579cb106e8e1017b8957
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="personalized-product-recommendations-overview"></a>Personalized product recommendations overview
+
+[!include[banner](includes/banner.md)]
+
 
 In Dynamics 365 for Operations, product recommendations can be displayed on the point of sale (POS) device. The recommendations are items that the customer might be interested in based on their purchase history, items in their wish list, and items that other customers purchased online and in brick-and-mortar stores. For retailers with large catalogs, recommendations help the customer with product discovery. By showcasing products targeted to a customer’s interests and buying habits, product recommendations can help retailers with up-sell and cross-sell, and can enhance customer retention. In Dynamics 365 for Operations, product recommendations are powered by cognitive services and Microsoft Azure machine learning.
 
@@ -41,14 +45,14 @@ Product recommendations are enabled for the following POS scenarios. They are av
 
 [![proddetails](./media/proddetails.png)](./media/proddetails.png)
 
-1.  On the **Transaction** page:
+2.  On the **Transaction** page:
 
 -   The recommendation engine suggests items based on the entire list of items in the basket.
 -   If the store associate adds a customer to the transaction, the recommendation engine provides personal recommendations using the customer’s transaction history and the list of items in the basket.
 
 **Note**  To display recommendations on the **Transaction** page, the retailer needs to update the screen layout in Dynamics 365 for Operations. The **Recommendations** control must be dropped on to the **Transaction** page. [![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-1.  On the **Customer details** page:
+3.  On the **Customer details** page:
     -   The recommendation engine suggests items based on the user ID and items in the customer’s wish list.
 
 [![customerdetailsrecommendations](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
@@ -79,5 +83,7 @@ When you turn on **Enable recommendations** and run the configuration jobs, the 
 --------
 
 [Add a recommendations control to the transaction page on a POS device](add-recommendations-control-pos-screen.md)
+
+
 
 

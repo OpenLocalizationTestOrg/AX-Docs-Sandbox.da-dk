@@ -3,10 +3,10 @@ title: Configure an approval step in a workflow
 description: This topic explains how to configure the properties of an approval step.
 author: sericks007
 manager: AnnBe
-ms.date: 2016-09-16 19 - 49 - 36
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -14,17 +14,21 @@ ms.custom: 192161
 ms.assetid: 8b478e3d-d6b4-403b-aae0-f639a71ca36c
 ms.search.region: Global
 ms.author: donaldc
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 77d1c7a92799d5e501333c0629af7289529a9a6e
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 1924562f866ecdbb6fa6d3d0a9dc7627387f2d6a
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="configure-an-approval-step-in-a-workflow"></a>Configure an approval step in a workflow
+
+[!include[banner](../includes/banner.md)]
+
 
 This topic explains how to configure the properties of an approval step.
 
@@ -102,13 +106,11 @@ Follow these steps to specify who the approval step should be assigned to.
     <td>Users in a specific organizational hierarchy</td>
     <td><ol>
     <li>After you select <strong>Hierarchy</strong>, on the <strong>Hierarchy selection</strong> tab, in the <strong>Hierarchy type</strong> list, select the type of hierarchy to assign the step to.</li>
-    <li>The system must retrieve a range of user names from the hierarchy. These names represent users that the step can be assigned to. Follow these steps to specify the starting point and ending point of the range of user names that the system retrieves:
-    <ol>
+    <li>The system must retrieve a range of user names from the hierarchy. These names represent users that the step can be assigned to. Follow these steps to specify the starting point and ending point of the range of user names that the system retrieves: <ol>
     <li>To specify the starting point, select a person in the <strong>Start from</strong> list.</li>
     <li>To specify the ending point, click <strong>Add condition</strong>. Then enter a condition that determines where in the hierarchy the system stops retrieving names.</li>
     </ol></li>
-    <li>On the <strong>Hierarchy options</strong> tab, specify which users in the range the step should be assigned to:
-    <ul>
+    <li>On the <strong>Hierarchy options</strong> tab, specify which users in the range the step should be assigned to: <ul>
     <li><strong>Assign to all users retrieved</strong> – The step is assigned to all users in the range.</li>
     <li><strong>Assign only to last user retrieved</strong> – The step is assigned to only the last user in the range.</li>
     <li><strong>Exclude users with the following condition</strong> – The step isn't assigned to any users in the range who meet a specific condition. Click <strong>Add condition</strong> to specify the condition.</li>
@@ -207,13 +209,11 @@ If a user doesn't take action on a document in the allotted time, the document i
     <td>Users in a specific organizational hierarchy</td>
     <td><ol>
     <li>After you select <strong>Hierarchy</strong>, on the <strong>Hierarchy selection</strong> tab, in the <strong>Hierarchy type</strong> list, select the type of hierarchy to escalate the document to.</li>
-    <li>The system must retrieve a range of user names from the hierarchy. These names represent users that the document can be escalated to. Follow these steps to specify the starting point and ending point of the range of user names that the system retrieves:
-    <ol>
+    <li>The system must retrieve a range of user names from the hierarchy. These names represent users that the document can be escalated to. Follow these steps to specify the starting point and ending point of the range of user names that the system retrieves: <ol>
     <li>To specify the starting point, select a person in the <strong>Start from</strong> list.</li>
     <li>To specify the ending point, click <strong>Add condition</strong>. Then enter a condition that determines where in the hierarchy the system stops retrieving names.</li>
     </ol></li>
-    <li>On the <strong>Hierarchy options</strong> tab, specify which users in the range the document should be escalated to:
-    <ul>
+    <li>On the <strong>Hierarchy options</strong> tab, specify which users in the range the document should be escalated to: <ul>
     <li><strong>Assign to all users retrieved</strong> – The document is escalated to all users in the range.</li>
     <li><strong>Assign only to last user retrieved</strong> – The document is escalated to only the last user in the range.</li>
     <li><strong>Exclude users with the following condition</strong> – The document isn't escalated to any users in the range who meet a specific condition. Click <strong>Add condition</strong> to specify the condition.</li>
@@ -247,6 +247,8 @@ If a user doesn't take action on a document in the allotted time, the document i
 
 5.  Repeat steps 3 through 4 for each user that should be added to the escalation path. You can change the order of the users.
 6.  If the users in the escalation path don't respond in the allotted time, the system automatically take action on the document. To specify the action that the system takes, select the **Action** row, and then, on the **End action** tab, select an action.
+
+
 
 
 

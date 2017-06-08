@@ -3,34 +3,42 @@ title: Centralized payments for Accounts receivable
 description: Organizations that include multiple legal entities can create and manage payments by using a single legal entity that handles all payments. Therefore, the same transaction doesn&quot;t have to be entered in multiple legal entities. This article provides examples that show how posting for centralized payments is handled in various scenarios.
 author: twheeloc
 manager: AnnBe
-ms.date: 2015-12-02 23 - 08 - 24
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
 ms.search.region: Global
 ms.author: kweekley
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: b1ca086ae5b8c161b40485a93412a117c852203b
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: c5a09eedd1dd12b7f5343953b16f9f0b210213d7
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="centralized-payments-for-accounts-receivable"></a>Centralized payments for Accounts receivable
 
+[!include[banner](../includes/banner.md)]
+
+
 Organizations that include multiple legal entities can create and manage payments by using a single legal entity that handles all payments. Therefore, the same transaction doesn't have to be entered in multiple legal entities. This article provides examples that show how posting for centralized payments is handled in various scenarios.
 
-Organizations that include multiple legal entities can create and manage payments by using a legal entity that handles all payments. Therefore, the same transaction doesn't have to be entered in multiple legal entities. Additionally, the organization saves time, because the processes for payment proposals, settlements, and editing open and closed transactions for centralized payments are streamlined. In a centralized payment organization, there are many legal entities for operations, and each operating legal entity manages its own invoices receivable information. Payments for all the operating legal entities are received by a single legal entity, which is known as the legal entity of the payment. During the settlement process, the applicable due-to and due-from transactions are generated. You can specify which legal entity in the organization receives the realized gain or realized loss transactions, and how cash discount transactions that are related to a centralized payment are handled. The following examples illustrate how posting is handled in various scenarios. The following configuration is assumed for all these examples:
+Organizations that include multiple legal entities can create and manage payments by using a legal entity that handles all payments. Therefore, the same transaction doesn't have to be entered in multiple legal entities. Additionally, the organization saves time, because the processes for payment proposals, settlements, and editing open and closed transactions for centralized payments are streamlined. 
+
+In a centralized payment organization, there are many legal entities for operations, and each operating legal entity manages its own invoices receivable information. Payments for all the operating legal entities are received by a single legal entity, which is known as the legal entity of the payment. During the settlement process, the applicable due-to and due-from transactions are generated. You can specify which legal entity in the organization receives the realized gain or realized loss transactions, and how cash discount transactions that are related to a centralized payment are handled. 
+
+The following examples illustrate how posting is handled in various scenarios. The following configuration is assumed for all these examples:
 
 -   The legal entities are Fabrikam, Fabrikam East, and Fabrikam West. Customer payments are entered into Fabrikam.
 -   The **Post cash discount** field on the **Intercompany accounting** page is set to **Legal entity of the invoice**.
@@ -291,6 +299,8 @@ Fabrikam receives a payment of 75.00 from customer 4000, Northwind Traders. The 
 | Accounts receivable (Fabrikam West)    |              | 75.00         |
 | Due from Fabrikam East (Fabrikam West) | 25.00        |               |
 | Accounts receivable (Fabrikam West)    |              | 25.00         |
+
+
 
 
 

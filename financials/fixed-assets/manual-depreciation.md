@@ -3,29 +3,33 @@ title: Manual depreciation
 description: This article gives an overview of the manual depreciation method.
 author: twheeloc
 manager: AnnBe
-ms.date: 2015-12-02 22 - 55 - 46
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AssetDepreciationProfile
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 13811
 ms.assetid: b0e837c9-515a-4aed-9060-5ec94f37edeb
 ms.search.region: Global
 ms.author: saraschi
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 2f0b6accbff6e90ace421677526ca1459026bf5f
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 75d176623b4fdf2198440becd0345628f873f6da
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="manual-depreciation"></a>Manual depreciation
+
+[!include[banner](../includes/banner.md)]
+
 
 This article gives an overview of the manual depreciation method.
 
@@ -71,5 +75,7 @@ If you select **Half-Yearly** in the ****Period frequency** field**, you set up 
 | December 31 | (11,000 – 1,000) × 50% = 5,000 |
 
 The total of percentages for all intervals doesn't have to be 100. However, you receive a message if the value in the **Cumulative percentage** field on the **Fixed asset depreciation profile schedules** page isn't **100**.
+
+
 
 

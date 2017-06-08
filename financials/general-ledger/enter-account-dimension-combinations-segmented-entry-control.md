@@ -3,32 +3,39 @@ title: Enter account and dimension combinations (segmented entry control)
 description: This article describes how to enter account and dimension combinations or ledger accounts. The entry experience is often referred to as segmented entry control.
 author: RobinARH
 manager: AnnBe
-ms.date: 2015-12-02 23 - 05 - 38
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 14071
 ms.assetid: e6fce826-c403-4d91-a78b-e9a58c44ac03
 ms.search.region: Global
 ms.author: aolson
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 3ecab0911ded7921a2e093a1255598e7b5aaf444
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 1535ef5c5eec1389272ce8fd2c2c183f532785b1
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Enter account and dimension combinations (segmented entry control)
 
+[!include[banner](../includes/banner.md)]
+
+
 This article describes how to enter account and dimension combinations or ledger accounts. The entry experience is often referred to as segmented entry control.
 
-Users enter account and dimension combinations on various pages, such as pages for general journals, budgeting, and posting definitions. The valid account and dimension combinations depend on the account structures that are assigned to the ledger and the advanced rules that are assigned to the account structures. When users enter a combination, they can either manually type the values or take advantage of a rich, lookup experience. When you enter the field, you can start to type and it will search the value and the description. For example, if you type 180 it will search any value that begins with that number combination. Or you may type Cash and it will search any value that has a description that begins with Cash. You can also use a wildcard, such as \*Cash or \*180 to search if the value or description contain the search criteria. The following table describes the keyboard shortcuts that can be used when the lookup is closed.
+Users enter account and dimension combinations on various pages, such as pages for general journals, budgeting, and posting definitions. The valid account and dimension combinations depend on the account structures that are assigned to the ledger and the advanced rules that are assigned to the account structures. When users enter a combination, they can either manually type the values or take advantage of a rich, lookup experience. When you enter the field, you can start to type and it will search the value and the description. For example, if you type 180 it will search any value that begins with that number combination. Or you may type Cash and it will search any value that has a description that begins with Cash. You can also use a wildcard, such as \*Cash or \*180 to search if the value or description contain the search criteria. 
+
+The following table describes the keyboard shortcuts that can be used when the lookup is closed.
+
 <table>
 <colgroup>
 <col width="50%" />
@@ -61,6 +68,7 @@ Users enter account and dimension combinations on various pages, such as pages f
 </table>
 
 The following table describes the keyboard shortcuts that can be used when the lookup is open.
+
 <table>
 <colgroup>
 <col width="50%" />
@@ -104,5 +112,7 @@ The following table describes the keyboard shortcuts that can be used when the l
 </table>
 
  
+
+
 
 

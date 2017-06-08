@@ -3,28 +3,32 @@ title: Configure the properties of a workflow
 description: This topic explains how to configure the various properties of a workflow.
 author: sericks007
 manager: AnnBe
-ms.date: 2016-09-30 20 - 52 - 55
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 196083
 ms.assetid: 192b7a98-7d04-4c7a-a986-29d797a8a837
 ms.search.region: Global
 ms.author: donaldc
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 6be2f2655ee68d3d014a83f18a524fa0bfc30450
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 263ebaf1cf509589a745f1a9ec3384f97e854519
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="configure-the-properties-of-a-workflow"></a>Configure the properties of a workflow
+
+[!include[banner](../includes/banner.md)]
+
 
 This topic explains how to configure the various properties of a workflow.
 
@@ -165,6 +169,8 @@ To enter comments about the changes that you made to the workflow, follow these 
 2.  In the **Enter comments about the workflow** field, enter your comments.
 3.  Review your comments. After you add comments, you can't modify them.
 4.  Click **Add** to add your comments to the **Comment history** area.
+
+
 
 
 

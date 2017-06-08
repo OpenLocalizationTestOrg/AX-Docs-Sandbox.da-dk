@@ -3,31 +3,35 @@ title: Budgeting in the public sector
 description: This overview introduces you to the budgeting functionality that is available for public sector. This includes budget analysis, preliminary budgets and apportionments, and posting definitions.
 author: rschloma
 manager: AnnBe
-ms.date: 2015-12-07 14 - 46 - 05
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BudgetControlApportionments, BudgetControlConfiguration, BudgetControlStatistics, BudgetParameters
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 19471
 ms.assetid: 8cecf3cc-8916-44d7-8c73-d6254a61f62b
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: brpotter
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 5a157b6dc6d3dcead6b47c867c26f14f5188897b
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: f98df2facf777e51950deff36db9740c5bee79e4
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="budgeting-in-the-public-sector"></a>Budgeting in the public sector
+
+[!include[banner](../includes/banner.md)]
+
 
 This overview introduces you to the budgeting functionality that is available for public sector. This includes budget analysis, preliminary budgets and apportionments, and posting definitions.
 
@@ -54,12 +58,14 @@ You may be required to set up the following Budgeting features:
 <a name="see-also"></a>See also
 --------
 
-[Budgeting](https://ax.help.dynamics.com/en/wiki/Budgeting/)
+[Budgeting](../budgeting/budgeting-overview.md)
 
 [Accounts payable in the public sector](accounts-payable-public-sector.md)
 
 [Accounts receivable in the public sector](accounts-receivable-public-sector.md)
 
 [General ledger in the public sector](general-ledger-public-sector.md)
+
+
 
 

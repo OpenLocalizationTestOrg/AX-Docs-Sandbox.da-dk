@@ -3,28 +3,32 @@ title: Organization administration home page
 description: This topic points to resources that will help you use Microsoft Dynamics 365 for Operations in your organization.
 author: sericks007
 manager: AnnBe
-ms.date: 2015-12-07 21 - 32 - 26
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 20421
 ms.assetid: 7aa24a03-d172-47e9-81f8-ebd39e80bc60
 ms.search.region: Global
 ms.author: sericks
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 451f78c96c6599201323732121dc0b8e8e899fb1
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 70fe2361e6c6a2ba07f9be2b30169dd071301300
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="organization-administration-home-page"></a>Organization administration home page
+
+[!include[banner](../includes/banner.md)]
+
 
 This topic points to resources that will help you use Microsoft Dynamics 365 for Operations in your organization.
 
@@ -77,9 +81,9 @@ This topic points to resources that will help you use Microsoft Dynamics 365 for
 -   [About date/time data and time zones](date-time-zones.md)
 -   [Record templates](record-templates.md)
 
-## <a name="additional-resources"></a>Additional resources
--   Additional help is available as task guides inside Dynamics 365 for Operations. To access task guides, click the Help button on any page.
--   For information about Microsoft Dynamics 365 for Operations training, see [Microsoft eLearning](https://mbspartner.microsoft.com/AX/LearningPlans) (requires a CustomerSource account).
+
+
+
 
 
 

@@ -3,29 +3,33 @@ title: Organizations and organizational hierarchies (Commerce essentials)
 description: Commerce essentials has three types of internal organizations that you can define to help an organization carry out a business process or achieve a goal.
 author: josaw1
 manager: AnnBe
-ms.date: 2015-12-09 14 - 53 - 48
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 21251
 ms.assetid: 2bfc6bfe-784b-42e8-8bf0-116e9f0a558e
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 07906192bc5eb2425139c7578c9a45e8b23c5eb1
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 17d434f5d49d544003ee7cb862391d88ac5c723a
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="organizations-and-organizational-hierarchies-commerce-essentials"></a>Organizations and organizational hierarchies (Commerce essentials)
+
+[!include[banner](includes/banner.md)]
+
 
 Commerce essentials has three types of internal organizations that you can define to help an organization carry out a business process or achieve a goal. 
 
@@ -68,6 +72,8 @@ The following table describes the Commerce essentials scenarios where organizati
 | Manage retail replenishment                                                    | Group stores to replenish inventory based on replenishment rules.                                                                                                                                                                                                                                          | Retail replenishment |
 | Report data for stores                                                         | Group stores for reporting.                                                                                                                                                                                                                                                                                | Retail reporting     |
 | Post inventory, calculate statements, or post statements for a group of stores | Create a group of stores that can be assigned to a batch job. When you define a batch job to post inventory, calculate statements, or post statements, you can specify which hierarchy the job applies to. When stores are added to or removed from the hierarchy, you don’t have to modify the batch job. | Retail POS posting   |
+
+
 
 
 

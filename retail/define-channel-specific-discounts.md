@@ -3,31 +3,35 @@ title: Define channel-specific discounts
 description: Retailers often set different discounts in different channels. This topic reviews the concepts you need to know to create a discount for a specific channel.
 author: josaw1
 manager: AnnBe
-ms.date: 2015-12-04 02 - 13 - 00
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: RetailAffiliationPriceGroup, RetailCatalogPriceGroup, RetailChannelPriceGroup, RetailDiscountPriceGroup, RetailDiscountPricingWorkspace, RetailPeriodicDiscount, RetailStoreItemPriceList, RetailStoreTable
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16401
 ms.assetid: d807fd51-86aa-47a0-8e00-6c5ddd21ff6b
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: scotttuc
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 99eccf7581f843f7434d514718a59dde731f315c
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 750f61198550a248d70fd531c3cb2ff86ca37f50
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="define-channel-specific-discounts"></a>Define channel-specific discounts
+
+[!include[banner](includes/banner.md)]
+
 
 Retailers often set different discounts in different channels. This topic reviews the concepts you need to know to create a discount for a specific channel. 
 
@@ -39,7 +43,8 @@ Retailers often offer different discounts in different channels. This is may be 
 Retail and commerce in Microsoft Dynamics 365 for Operations uses price groups to define channel-specific discounts. Price groups can be assigned to one or more of the following entities: channels, catalogs, affiliations, and loyalty programs. This article discusses channels, but the same concepts apply to catalog discounts, affiliations discounts, and loyalty discounts.
 
 ## <a name="price-groups"></a>Price groups
-\[caption id="attachment\_256084" align="alignnone" width="640"\][![Price groups](./media/price-groups-1024x608.png)](./media/price-groups.png) Price group links for Retail\[/caption\]
+
+[![Price groups](./media/price-groups-1024x608.png)](./media/price-groups.png)
 
 The diagram above illustrates the relationship between entities that may be on a transaction (channel, catalog, affiliation, customer, loyalty card) and the various discount types that can be configured. All transactions occur in a channel, so the channel is guaranteed to be present on a transaction. The remaining entities are optional. On each master data pages there is a link to a related price groups page where you can view and add price groups as needed. A price group is used to relate four different types of entities to discounts, price adjustments, and trade agreements. We recommend that you plan a strategy for how you will name your price groups to keep them organized. One option would be to use a letter or number prefix or suffix to distinguish between the different types. For example, 1-xxxxx for channel price groups and 2-xxxxx for catalog price groups. There are four inquiry pages that focus on each of the retail entities that can have discounts associated to them.
 
@@ -62,6 +67,8 @@ The following example illustrates the tasks involved in setting up a channel dis
 <a name="see-also"></a>See also
 --------
 
-[Price adjustments and discounts](http://axhelp.https://ax.help.dynamics.com/en/?post_type=incsub_wiki&p=74921)
+[Price adjustments and discounts](price-adjustments-discounts.md)
+
+
 
 

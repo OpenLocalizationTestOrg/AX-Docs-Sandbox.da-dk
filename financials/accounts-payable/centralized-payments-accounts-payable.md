@@ -3,34 +3,42 @@ title: Centralized payments for Accounts payable
 description: Organizations that include multiple legal entities can create and manage payments by using a single legal entity that handles all payments. Therefore, the same payments don&quot;t have to be entered in multiple legal entities. This article provides examples that show how posting for centralized payments is handled in various scenarios.
 author: twheeloc
 manager: AnnBe
-ms.date: 2015-12-02 23 - 23 - 08
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 14341
 ms.assetid: 7bd02e32-2416-4ac6-8a60-85525267fdb7
 ms.search.region: Global
 ms.author: kweekley
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 0f8c4df2156114571a91039bb424b25df9044dc9
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 23541bb2d82b552cdc9e0ada4aa4ec473f498d0b
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="centralized-payments-for-accounts-payable"></a>Centralized payments for Accounts payable
 
+[!include[banner](../includes/banner.md)]
+
+
 Organizations that include multiple legal entities can create and manage payments by using a single legal entity that handles all payments. Therefore, the same payments don't have to be entered in multiple legal entities. This article provides examples that show how posting for centralized payments is handled in various scenarios.
 
-Organizations that include multiple legal entities can create and manage payments by using a legal entity that handles all payments. Therefore, the same payments don't have to be entered in multiple legal entities. Additionally, the organization saves time, because the payment process is streamlined. In a centralized payments organization, there are many legal entities for operations, and each operating legal entity manages its own vendor invoices. Payments for all the operating legal entities are generated from a single legal entity, which is known as the legal entity of the payment. During the settlement process, the applicable due-to and due-from transactions are generated. You can specify which legal entity in the organization receives the realized gain or realized loss transactions, and how cash discount transactions that are related to a cross-company payment are handled. The following examples illustrate how posting is handled in various scenarios. The following configuration is assumed for all these examples:
+Organizations that include multiple legal entities can create and manage payments by using a legal entity that handles all payments. Therefore, the same payments don't have to be entered in multiple legal entities. Additionally, the organization saves time, because the payment process is streamlined.
+
+In a centralized payments organization, there are many legal entities for operations, and each operating legal entity manages its own vendor invoices. Payments for all the operating legal entities are generated from a single legal entity, which is known as the legal entity of the payment. During the settlement process, the applicable due-to and due-from transactions are generated. You can specify which legal entity in the organization receives the realized gain or realized loss transactions, and how cash discount transactions that are related to a cross-company payment are handled. 
+
+The following examples illustrate how posting is handled in various scenarios. The following configuration is assumed for all these examples:
 
 -   The legal entities are Fabrikam, Fabrikam East, and Fabrikam West. Payments are made from Fabrikam.
 -   The **Post cash discount** field on the **Intercompany accounting** page is set to **Legal entity of the invoice**.
@@ -291,6 +299,8 @@ Fabrikam generates a payment of 75.00 for vendor 3004, Fourth Coffee. The paymen
 | Due to Fabrikam (Fabrikam West)      |              | 75.00         |
 | Accounts payable (Fabrikam West)     | 25.00        |               |
 | Due to Fabrikam East (Fabrikam West) |              | 25.00         |
+
+
 
 
 

@@ -3,30 +3,34 @@ title: Accounting distributions and subledger journal entries for free text invo
 description: Accounting distributions are used to define how an amount will be accounted for, such as how the revenue, tax, or charges will be accounted for on a free text invoice. Every amount that must be accounted for when the free text invoice is journalized will have one or more accounting distributions.
 author: twheeloc
 manager: AnnBe
-ms.date: 2015-09-10 20 - 23 - 12
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustFreeInvoice
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 3141
 ms.assetid: fecd17a2-d7b4-4a20-ac81-eb71abbfa9d1
 ms.search.region: Global
 ms.author: mfalkner
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: db3f156906b4ad62adf25705317d5d265f075d21
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: b530b5c8b5e252efb253dcf5b4ad080e2f646e5f
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="accounting-distributions-and-subledger-journal-entries-for-free-text-invoices"></a>Accounting distributions and subledger journal entries for free text invoices
+
+[!include[banner](../includes/banner.md)]
+
 
 Accounting distributions are used to define how an amount will be accounted for, such as how the revenue, tax, or charges will be accounted for on a free text invoice. Every amount that must be accounted for when the free text invoice is journalized will have one or more accounting distributions.
 
@@ -132,5 +136,7 @@ Accounting distributions for taxes cannot be created until taxes are calculated.
 
 ## <a name="subledger-journals-for-free-text-invoices"></a>Subledger journals for free text invoices
 Before you post a free text invoice, you can view the full accounting entry of the invoice, which includes debits and credits, to verify that the invoice is being posted to the correct accounts. This view of the full accounting entry is called a subledger journal. If the subledger journal entry is incorrect when you preview it before you journalize the free text invoice, you can't change the subledger journal entry. Instead, you must change the accounting distributions or the posting profile. The accounting distributions are used to define one side of the accounting entry, the debit or the credit. The offsetting subledger journal account entry is created from the posting profiles, such as from the customer account or the tax.
+
+
 
 

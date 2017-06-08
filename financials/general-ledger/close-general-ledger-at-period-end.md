@@ -3,28 +3,32 @@ title: Close the general ledger at period end
 description: This topic describes the tasks that are typically completed when performing a period closing for General ledger.
 author: RobinARH
 manager: AnnBe
-ms.date: 2015-12-02 23 - 07 - 25
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 14111
 ms.assetid: cec9e039-c1a2-482c-bea6-e11d896eea9d
 ms.search.region: Global
 ms.author: aolson
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 12721c75bc2f3ec2d66069d394d7ebc18b31dacd
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 81d687cc16ef43442c8c1c166cc6f0d8b171e28f
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="close-the-general-ledger-at-period-end"></a>Close the general ledger at period end
+
+[!include[banner](../includes/banner.md)]
+
 
 This topic describes the tasks that are typically completed when performing a period closing for General ledger. 
 
@@ -41,11 +45,10 @@ In General ledger, you can complete closing procedures for a period or a year. C
 -   Generate period-end financial statements by using Financial reporting.
 -   Set ledger periods to **On hold**, so that no further posting occurs. You can also restrict a period to a specific user group while period-end activities are occurring, for better control. It's not a good idea to set periods to **Permanently closed**, because you can't reopen a period that has been closed.
 
-The Financial period close workspace can be used to organize and track the tasks required for various period end processes. Refer to the [Financial period close workspace](financial-period-close-workspace.md)topic for additional information.
+The Financial period close workspace can be used to organize and track the tasks required for various period end processes. Refer to the [Financial period close workspace](financial-period-close-workspace.md) and [Year end close](Year-end-close.md) topics for more information. 
 
-<a name="see-also"></a>See also
---------
 
-[Year end close](https://ax.help.dynamics.com/en/?post_type=incsub_wiki&p=246674)
+
+
 
 

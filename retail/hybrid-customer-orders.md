@@ -3,29 +3,33 @@ title: Hybrid customer orders
 description: A hybrid customer order is a single order, which contains products that can be carried out of the store by the customer, as well as products that will be picked up or shipped later.
 author: josaw1
 manager: AnnBe
-ms.date: 2016-12-02 19 - 53 - 25
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations
+ms.search.scope: Operations, Core
 ms.custom: 261164
 ms.assetid: 9d99a5b9-4662-499a-bece-3ea1d6092934
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: anpurush
-ms.dyn365.ops.intro: 01-11-2016
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 61ea3d93460dfe6094cbff4d621896c71099bbfd
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: eb6ba7cfdf098671192d4d6e73119f96b287c437
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="hybrid-customer-orders"></a>Hybrid customer orders
+
+[!include[banner](includes/banner.md)]
+
 
 A hybrid customer order is a single order, which contains products that can be carried out of the store by the customer, as well as products that will be picked up or shipped later.
 
@@ -40,5 +44,7 @@ If a cart line is selected and **Pick selected**, **Ship selected**, or **Carry 
 --------
 
 [Customer orders overview](customer-orders-overview.md)
+
+
 
 

@@ -1,36 +1,48 @@
 ---
 title: Depreciation methods and conventions
-description: This article provides an overview of the depreciation conventions and depreciation methods that are supported by Microsoft Dynamics AX.
+description: This article provides an overview of the depreciation conventions and depreciation methods that are supported by Microsoft Dynamics 365 for Operations.
 author: twheeloc
 manager: AnnBe
-ms.date: 2015-09-10 21 - 04 - 03
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AssetDepreciationProfile, AssetGroupBookSetup, AssetGroupDepBookSetup
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 3441
 ms.assetid: 1d8267b1-86a8-44bf-8814-f56b5d45a0ae
 ms.search.region: Global
 ms.author: saraschi
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 98f101a2a62cf4558eac7a6c16e34d75a2fcb2ab
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 6ddd496aecf850a4c98043780f98e9fba8e62b49
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="depreciation-methods-and-conventions"></a>Depreciation methods and conventions
 
-This article provides an overview of the depreciation conventions and depreciation methods that are supported by Microsoft Dynamics AX.
+[!include[banner](../includes/banner.md)]
 
-You can select various depreciation methods and conventions. The purpose of the methods is to allocate the depreciable value of the fixed asset into fiscal periods. The depreciable value of the fixed asset is the acquisition price, reduced by a scrap value, if any. If you are using depreciation conventions and you modify the last depreciation run date for an asset, which then causes some depreciations to be skipped, the depreciation for the last year might be more than or less than is expected. The depreciation is adjusted by the number of depreciation periods affected by the modification of the last depreciation run date. For example, if you are using the Half year depreciation convention over three years, depreciation ordinarily occurs over 3 1/2 years. If you change the last depreciation run date during the 3 1/2 years, the last year of depreciation moves out the number of periods affected. If you move the date by three months, the last year will have nine months’ worth of depreciation, when ordinarily there would be six months’ worth of depreciation. You can select from the following depreciation conventions.
+
+This article provides an overview of the depreciation conventions and depreciation methods that are supported by Microsoft Dynamics 365 for Operations.
+
+You can select various depreciation methods and conventions. The purpose of the methods is to allocate the depreciable value of the fixed asset into fiscal periods. The depreciable value of the fixed asset is the acquisition price, reduced by a scrap value, if any. 
+
+If you are using depreciation conventions and you modify the last depreciation run date for an asset, which then causes some depreciations to be skipped, the depreciation for the last year might be more than or less than is expected. The depreciation is adjusted by the number of depreciation periods affected by the modification of the last depreciation run date.
+
+For example, if you are using the Half year depreciation convention over three years, depreciation ordinarily occurs over 3 1/2 years. If you change the last depreciation run date during the 3 1/2 years, the last year of depreciation moves out the number of periods affected. If you move the date by three months, the last year will have nine months’ worth of depreciation, when ordinarily there would be six months’ worth of depreciation.
+
+You can select from the following depreciation conventions.
+
+
 -   Half year
 -   Full month
 -   Mid quarter
@@ -60,7 +72,7 @@ You can select from the following depreciation methods.
 
 [Fixed asset depreciation](fixed-asset-depreciation.md)
 
-[Straight line service life depreciation](https://ax.help.dynamics.com/en/wiki/Straight-line-service-life-depreciation/)
+[Straight line service life depreciation](Straight-line-service-life-depreciation.md)
 
 [Reducing balance depreciation](reduce-balance-depreciation.md)
 
@@ -79,5 +91,7 @@ You can select from the following depreciation methods.
 [175 percent reducing balance depreciation](175-percent-reducing-balance-depreciation.md)
 
 [200 percent reducing balance depreciation](200-percent-reducing-balance-depreciation.md)
+
+
 
 

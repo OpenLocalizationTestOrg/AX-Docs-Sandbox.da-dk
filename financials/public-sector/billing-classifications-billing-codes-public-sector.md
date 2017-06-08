@@ -1,33 +1,37 @@
 ---
 title: Billing classifications and billing codes in the public sector
 description: Public-sector organizations can use billing classifications and billing codes to help manage free text invoices.
-author: rschloma
+author: twheeloc
 manager: AnnBe
-ms.date: 2015-12-07 15 - 35 - 53
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustBillingClassification, CustBillingCode, CustCustomField
 audience: Application User
-ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations
+ms.reviewer: twheeloc
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 19491
 ms.assetid: 47624566-0b4c-41dc-9cd4-801e213b5da3
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: brpotter
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 4b15f5dc1becc47652aaa3f9b07304e1c55d5cc4
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 83d97f4c2f3d56858b604375a87daf231bb7b890
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="billing-classifications-and-billing-codes-in-the-public-sector"></a>Billing classifications and billing codes in the public sector
+
+[!include[banner](../includes/banner.md)]
+
 
 Public-sector organizations can use billing classifications and billing codes to help manage free text invoices. 
 
@@ -85,11 +89,8 @@ When billing codes need to be updated, you don’t need to create new billing co
 ## <a name="can-i-assign-the-same-billing-code-to-more-than-one-billing-classification"></a>Can I assign the same billing code to more than one billing classification?
 No, but there’s a way to get the results you need anyway. Let’s say that your organization uses a separate billing classification for each department. Three of the departments need a billing code for license agreements. You can’t assign a single “License agreement” billing code to three billing classifications, but you can create a set of three identical billing codes, and assign one to each department.
 
-<a name="see-also"></a>See also
---------
 
-[Accounts receivable](accounts-receivable.md)
 
-[Accounts receivable in the public sector](https://ax.help.dynamics.com/en/?post_type=incsub_wiki&p=169941)
+
 
 

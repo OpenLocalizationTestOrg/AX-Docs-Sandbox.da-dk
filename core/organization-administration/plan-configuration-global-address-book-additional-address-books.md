@@ -1,12 +1,12 @@
 ---
 title: Configure global address books
-description: This article describes the considerations and decisions that you must make during the planning process, before you set up and configure the global address book and any additional address books in Microsoft Dynamics AX. Some of the decisions will require that you confirm the decisions that have been made for other areas of the product, such as the organization hierarchy.
+description: This article describes the considerations and decisions that you must make during the planning process, before you set up and configure the global address book and any additional address books in Microsoft Dynamics 365 for Operations. Some of the decisions will require that you confirm the decisions that have been made for other areas of the product, such as the organization hierarchy.
 author: kfend
 manager: AnnBe
-ms.date: 2015-12-11 23 - 19 - 43
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: DirAddressBook, DirAddressBookTeam, DirParameters, DirPartyTable
 audience: Application User
@@ -16,19 +16,23 @@ ms.custom: 23341
 ms.assetid: a41cd8de-9ee0-4275-aea5-131db5326e5b
 ms.search.region: Global
 ms.author: kfend
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 740a0eaf09a42c9b47512e9e36b3b773088912c2
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: dabac8a899a07192d31f4a8f4f70b12ed5410093
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="configure-global-address-books"></a>Configure global address books
 
-This article describes the considerations and decisions that you must make during the planning process, before you set up and configure the global address book and any additional address books in Microsoft Dynamics AX. Some of the decisions will require that you confirm the decisions that have been made for other areas of the product, such as the organization hierarchy.
+[!include[banner](../includes/banner.md)]
+
+
+This article describes the considerations and decisions that you must make during the planning process, before you set up and configure the global address book and any additional address books in Microsoft Dynamics 365 for Operations. Some of the decisions will require that you confirm the decisions that have been made for other areas of the product, such as the organization hierarchy.
 
 <a name="global-address-book"></a>Global address book
 -------------------
@@ -61,6 +65,8 @@ After you create the global address book, you can create additional address book
 You can create address books at any time, and you can also set security parameters for the address books at any time. You aren't required to set security privileges for an address book, but if you don't, all workers in your organization can view all party records in that address book. You can set security privileges to party records through address books. Security privileges are based on teams. This approach guarantees that only workers who are assigned to a team that has access to an address book can view the party records in that address book. You must select the teams that have access to each address book. For each address book, you can set security privileges that allow or deny access to specific teams. If you grant a team privileges to an address book, all members of that team can view the records in the address book. If you don't grant a team access to an address book, the members of that team can't view the address book or its contents. **Decision:**
 
 -   Which teams should have access to each new address book that you will create?
+
+
 
 
 

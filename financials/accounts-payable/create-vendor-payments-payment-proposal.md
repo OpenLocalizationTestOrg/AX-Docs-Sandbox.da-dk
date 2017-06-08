@@ -3,33 +3,39 @@ title: Create vendor payments by using a payment proposal
 description: This topic provides an overview of the payment proposal options and includes some examples that show how payment proposals work. Payment proposals are often used to create vendor payments, because the query can be used to quickly select vendor invoices for payment, based on criteria such as the due date and cash discount.
 author: twheeloc
 manager: AnnBe
-ms.date: 2015-12-02 23 - 21 - 59
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
 ms.author: kweekley
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: c00cdf670cced12f4053a2d26203b254e693b77a
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: b351ea58a25c763dcf90ff1c61e0e3b3cba6c34a
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Create vendor payments by using a payment proposal
 
+[!include[banner](../includes/banner.md)]
+
+
 This topic provides an overview of the payment proposal options and includes some examples that show how payment proposals work. Payment proposals are often used to create vendor payments, because the query can be used to quickly select vendor invoices for payment, based on criteria such as the due date and cash discount. 
 
-Organizations often use payment proposals to create vendor payments, because the payment proposal query can be used to quickly select vendor invoices for payment, based on the due date, cash discount, and other criteria. The payment proposal query contains various tabs, each of which has different options for selecting invoices to pay. The **Parameter** tab contains options that a majority of organization use most often. On the **Records to include** FastTab, you can specify which invoices or vendors to include for payment by defining ranges for various characteristics. For example, if you want to pay only a specific range of vendors, you can define a filter for the vendor range. This functionality is often used to select invoices for a specific of method of payment. For example, if you define a filter where **Method of payment** = **Check**, only invoices that have that method of payment are selected for payment, provided that they also meet other criteria that are specified in the query. The **Advanced parameters** tab contains additional options, some of which might not be relevant to your organization. For example, this tab contains the options for paying invoices for centralized payments.
+Organizations often use payment proposals to create vendor payments, because the payment proposal query can be used to quickly select vendor invoices for payment, based on the due date, cash discount, and other criteria. 
+
+The payment proposal query contains various tabs, each of which has different options for selecting invoices to pay. The **Parameter** tab contains options that a majority of organization use most often. On the **Records to include** FastTab, you can specify which invoices or vendors to include for payment by defining ranges for various characteristics. For example, if you want to pay only a specific range of vendors, you can define a filter for the vendor range. This functionality is often used to select invoices for a specific of method of payment. For example, if you define a filter where **Method of payment** = **Check**, only invoices that have that method of payment are selected for payment, provided that they also meet other criteria that are specified in the query. The **Advanced parameters** tab contains additional options, some of which might not be relevant to your organization. For example, this tab contains the options for paying invoices for centralized payments.
 
 ## <a name="parameters"></a>Parameters
 -   **Select invoices by** – Invoices within the date range that is specified by the **From date** and **To date** fields can be selected by due date, cash discount date, or both. If you use the cash discount date, the system first looks for invoices that have a cash discount date between the from date and to date. The system then determines whether the invoice is eligible for the cash discount by using the session date to make sure that the cash discount date hasn’t already passed.
@@ -114,5 +120,7 @@ Dimension control allows you to control grouping of generated lines by payment p
 #### <a name="bank-account-selection"></a>Bank account selection
 
 You can define a standard debiting payment account per method of payment regardless country context. This will be set in payment lines generated by a proposal. With the bank account feature, you can define multiple debiting bank accounts managed by dimension and currency or a combination of these to use different debiting bank accounts, depending on each combination. You can set up these combinations in **Methods of payments** page by using the **Bank accounts** button available for each method of payment with **Posting account type** = **Bank**.
+
+
 
 

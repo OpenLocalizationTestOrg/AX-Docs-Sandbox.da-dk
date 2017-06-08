@@ -1,31 +1,35 @@
 ---
 title: Project invoicing
 description: This article provides an overview of project invoicing for Time and material projects and Fixed-price projects. It includes information about invoice proposals (preliminary invoices), invoice control, on-account invoicing, vendor invoicing, and credit notes.
-author: kfend
+author: twheeloc
 manager: AnnBe
-ms.date: 2015-12-11 22 - 59 - 30
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 23111
 ms.assetid: 1812d6f2-8b34-4258-8f5f-dcf12281547f
 ms.search.region: Global
 ms.author: kfend
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 60682495f1499f2c7544a18aac54a2fe8a83caf5
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 91b8fa9dc09359c59b806ac3d296e53503f7ed1a
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="project-invoicing"></a>Project invoicing
+
+[!include[banner](../includes/banner.md)]
+
 
 This article provides an overview of project invoicing for Time and material projects and Fixed-price projects. It includes information about invoice proposals (preliminary invoices), invoice control, on-account invoicing, vendor invoicing, and credit notes.
 
@@ -45,21 +49,33 @@ Before you create a customer invoice for a project, you can create a preliminary
 
 ### <a name="creating-invoice-proposals"></a>Creating invoice proposals
 
-You can create invoice proposals by manually selecting from a list of transactions for a specified project. You can also set up billing rules that specify when to automatically create an invoice proposal. For example, you can create a billing rule to create an invoice proposal when work on a project is 25 percent, 50 percent, 75 percent, and 100 percent completed. You can create invoice proposals for the following transactions:
+You can create invoice proposals by manually selecting from a list of transactions for a specified project. You can also set up billing rules that specify when to automatically create an invoice proposal. For example, you can create a billing rule to create an invoice proposal when work on a project is 25 percent, 50 percent, 75 percent, and 100 percent completed. 
+
+You can create invoice proposals for the following transactions:
 
 -   Hours, expenses, and other project transactions
 -   Amounts that are withheld by customers on previous project invoices
 -   Credit notes
 -   Amounts that a customer paid to you before a project is started
 
-You can create fee transactions in an invoice proposal. You can also modify the sales price on hour, expense, item, and fee transactions. When you post an invoice proposal, the updated prices and transactions are added to project reports and the transaction history. To create multiple customer invoices for a project, you must create an invoice proposal for each invoice. For example, you can create invoices based on transaction type. To specify hours on one customer invoice and items on another, you must create separate invoice proposals for hour transactions and fee transactions. If a project has more than one funding source, you can create a separate invoice proposal for each funding source. On the **Funding rule allocations** page, you can define the percentage of the transaction amount to allocate to each funding source, and the source to post rounding differences.
+You can create fee transactions in an invoice proposal. You can also modify the sales price on hour, expense, item, and fee transactions. When you post an invoice proposal, the updated prices and transactions are added to project reports and the transaction history. 
+
+To create multiple customer invoices for a project, you must create an invoice proposal for each invoice. For example, you can create invoices based on transaction type. To specify hours on one customer invoice and items on another, you must create separate invoice proposals for hour transactions and fee transactions. 
+
+If a project has more than one funding source, you can create a separate invoice proposal for each funding source. On the **Funding rule allocations** page, you can define the percentage of the transaction amount to allocate to each funding source, and the source to post rounding differences.
 
 ### <a name="creating-customer-invoices-from-invoice-proposals"></a>Creating customer invoices from invoice proposals
 
-After you create and post an invoice proposal, a customer invoice is automatically created for the transactions that are included in the invoice proposal. Before you post an invoice proposal, you can add transactions to it or delete transactions from it. For example, you can remove expense transactions that were posted to a project, but that are not chargeable to the customer. If your organization requires that invoice proposals be reviewed before they are posted, the invoice proposal might need to be approved through the "Review project invoice proposals" workflow before it is posted.
+After you create and post an invoice proposal, a customer invoice is automatically created for the transactions that are included in the invoice proposal. 
 
-## <a name="onaccount-invoicing"></a>Onaccount invoicing
-The amount that you enter for a project in an on-account invoice is based on the timing, percentage of completion, and other billing conditions that are specified in the related project contract. The amount is not calculated based on the hours, items, expenses, or fees that are posted to the project. You must create an on-account transaction for a Time and material project or a Fixed-price project before you can add that on-account transaction to a project invoice. On the on-account transaction, enter the amount to invoice a customer. To create a project invoice for the amount, create a preliminary invoice (invoice proposal). In the invoice proposal, select the on-account transaction. You can review the on-account information in the invoice proposal before you create a project invoice for it.
+Before you post an invoice proposal, you can add transactions to it or delete transactions from it. For example, you can remove expense transactions that were posted to a project, but that are not chargeable to the customer. 
+
+If your organization requires that invoice proposals be reviewed before they are posted, the invoice proposal might need to be approved through the "Review project invoice proposals" workflow before it is posted.
+
+## <a name="on-account-invoicing"></a>On-account invoicing
+The amount that you enter for a project in an on-account invoice is based on the timing, percentage of completion, and other billing conditions that are specified in the related project contract. The amount is not calculated based on the hours, items, expenses, or fees that are posted to the project. 
+
+You must create an on-account transaction for a Time and material project or a Fixed-price project before you can add that on-account transaction to a project invoice. On the on-account transaction, enter the amount to invoice a customer. To create a project invoice for the amount, create a preliminary invoice (invoice proposal). In the invoice proposal, select the on-account transaction. You can review the on-account information in the invoice proposal before you create a project invoice for it.
 
 ### <a name="fixed-price-projects"></a>Fixed-price projects
 
@@ -72,12 +88,14 @@ For Time and material projects, you can bill a customer or other funding source 
 ## <a name="invoice-control"></a>Invoice control
 You can use invoice control to track both invoiced and non-invoiced transactions, and to analyze those transactions against quotations for an end-to-end view of your projects from the quotation stage to completion. You can see which transactions have been charged to a specific project and which lines have been invoiced. You can also view individual transactions, so that you can adjust them after they are posted.
 
-## <a name="invoicing-fixedprice-projects"></a>Invoicing Fixedprice projects
+## <a name="invoicing-fixed-price-projects"></a>Invoicing Fixed-price projects
 To invoice a Fixed-price project, you must define a billing schedule and complete the invoicing procedure.
 
 ### <a name="billing-schedule"></a>Billing schedule
 
-You can invoice Fixed-price projects on a billing schedule. The billing schedule is defined in terms of one or more milestones for the project. For each milestone, you can define a specific date, sales currency, sales price, and activity. For example, you can set up the following billing schedule:
+You can invoice Fixed-price projects on a billing schedule. The billing schedule is defined in terms of one or more milestones for the project. For each milestone, you can define a specific date, sales currency, sales price, and activity. 
+
+For example, you can set up the following billing schedule:
 
 -   20 percent when the project contract is signed
 -   30 percent on first delivery
@@ -95,6 +113,16 @@ When you order an item from a vendor and assign the item to a project, the line 
 -   Don’t invoice the project's customer for the item: Don’t select the **Chargeable** line property on the purchase order line for the item. You can then invoice the purchase order, and no further action is required.
 
 ## <a name="credit-notes"></a>Credit notes
-When an amount on a customer invoice has a negative value, the invoice is classified as a credit note. When the document is printed, it has the title "Credit note." When you create a credit note to credit an amount that was previously invoiced, you must first select the invoiced amount for crediting. You then create a credit note by following the same procedure that you would use to create an ordinary customer invoice. In other words, you select the transactions that were previously posted on a customer invoice, and then create and post a credit note proposal. The same document can include transactions that are selected for crediting, credit transactions, and transactions that have been posted. The document is classified as either an invoice or a credit note, depending on whether the total amount is positive or negative. To credit an invoiced amount, you first select the invoiced amount to credit and then create a credit note. You create a credit note by following the same procedure that you would use to generate a customer invoice. You can create an invoice that has a negative amount, which becomes an invoice that is classified as a credit note. To create and print a credit note, you must select the transactions that were previously posted for a customer invoice, and then modify the transactions. Unless the primary address of the legal entity is in Germany, the title of the invoice will be "Corrective invoice."
+When an amount on a customer invoice has a negative value, the invoice is classified as a credit note. When the document is printed, it has the title "Credit note." 
+
+When you create a credit note to credit an amount that was previously invoiced, you must first select the invoiced amount for crediting. You then create a credit note by following the same procedure that you would use to create an ordinary customer invoice. In other words, you select the transactions that were previously posted on a customer invoice, and then create and post a credit note proposal. 
+
+The same document can include transactions that are selected for crediting, credit transactions, and transactions that have been posted. The document is classified as either an invoice or a credit note, depending on whether the total amount is positive or negative. 
+
+To credit an invoiced amount, you first select the invoiced amount to credit and then create a credit note. You create a credit note by following the same procedure that you would use to generate a customer invoice. 
+
+You can create an invoice that has a negative amount, which becomes an invoice that is classified as a credit note. To create and print a credit note, you must select the transactions that were previously posted for a customer invoice, and then modify the transactions. Unless the primary address of the legal entity is in Germany, the title of the invoice will be "Corrective invoice."
+
+
 
 

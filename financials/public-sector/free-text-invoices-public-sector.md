@@ -1,33 +1,37 @@
 ---
 title: Free text invoices in the public sector
 description: This topic describes the free text invoice functionality that is available for public sector as well as answers common questions about using billing classifications and billing codes with free text invoices.
-author: rschloma
+author: twheeloc
 manager: AnnBe
-ms.date: 2015-12-12 23 - 25 - 50
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustBillingClassification, CustBillingCode, CustFreeInvoice
 audience: Application User
-ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations
+ms.reviewer: twheeloc
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 25821
 ms.assetid: 483e2726-ec48-4d1f-82f5-bffddea301ce
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: brpotter
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: a3a86f447d2969569c39accb1effa2a960199220
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 9987dba6213c709c2886cea8ddc59e1f8e84da41
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="free-text-invoices-in-the-public-sector"></a>Free text invoices in the public sector
+
+[!include[banner](../includes/banner.md)]
+
 
 This topic describes the free text invoice functionality that is available for public sector as well as answers common questions about using billing classifications and billing codes with free text invoices.
 
@@ -48,22 +52,24 @@ First make sure that the invoice is using the right billing classification. Only
 ## <a name="i-can-change-some-of-the-fields-on-my-free-text-invoices-all-of-the-time-and-i-can-change-all-of-the-fields-some-of-the-time-but-some-of-the-fields-i-can-only-change-some-of-the-time-whats-up-with-that"></a>I can change some of the fields on my free text invoices all of the time, and I can change all of the fields some of the time. But some of the fields I can only change some of the time. What’s up with that?
 Settings on the billing code control whether you can change certain fields.
 
--   If the billing code on a free text invoice line doesn’t allow rate changes on the invoice, you can’t change the amount, the unit price, or the amount details on the line. **Tip**: If the **Billing code determines** field is set to unit price, you can’t change the unit price, but you can change the amount indirectly by changing the quantity.
+-   If the billing code on a free text invoice line doesn’t allow rate changes on the invoice, you can’t change the amount, the unit price, or the amount details on the line. 
+
+> [!TIP] 
+> If the **Billing code determines** field is set to unit price, you can’t change the unit price, but you can change the amount indirectly by changing the quantity.
+
 -   If the billing code on a free text invoice line doesn’t allow changes to the ledger accounts, you can’t change the accounting distributions on the line. You can change the main account that displays on the free text invoice line, but that change affects only what is displayed. Changing the main account does not affect the distributions.
--   When there’s a project associated with the invoice line, the billing code controls whether you can change the project ID, category, and ledger account. **Tip**: To change the ledger account for invoice lines related to projects, changes have to be allowed both on the billing code itself and on the Projects section of the Accounts receivable parameters page.
+-   When there’s a project associated with the invoice line, the billing code controls whether you can change the project ID, category, and ledger account. 
+
+> [!TIP] 
+> To change the ledger account for invoice lines related to projects, changes have to be allowed both on the billing code itself and on the Projects section of the Accounts receivable parameters page.
 
 To learn more about billing codes, see [Billing classifications and billing codes in the public sector](billing-classifications-billing-codes-public-sector.md).
 
 ## <a name="where-does-the-interest-code-on-a-free-text-invoice-come-from"></a>Where does the interest code on a free text invoice come from?
 The interest code can be set on the billing code, the billing classification, or the posting profile.
 
-<a name="see-also"></a>See also
---------
 
-[Accounts receivable](accounts-receivable.md)
 
-[Accounts receivable in the public sector](https://ax.help.dynamics.com/en/?post_type=incsub_wiki&p=169941)
 
-[Accounting distributions and subledger journal entries for free text invoices](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
 
 

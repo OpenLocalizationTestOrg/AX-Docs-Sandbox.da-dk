@@ -3,30 +3,34 @@ title: Create a call center catalog
 description: This article provides an overview of the process for creating a catalog for a call center.
 author: josaw1
 manager: AnnBe
-ms.date: 2015-12-03 22 - 20 - 12
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16212
 ms.assetid: c9d1b9df-82e8-4b3a-a13c-166df8b9718e
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: f29f2e08d580a4cbd7e5ec5849bf1e3f319c133c
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: ef58d4b2028aee5bccd9f060abed8342381888eb
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="create-a-call-center-catalog"></a>Create a call center catalog
+
+[!include[banner](includes/banner.md)]
+
 
 This article provides an overview of the process for creating a catalog for a call center. 
 
@@ -68,5 +72,7 @@ You can also add the following items to a call center catalog. These items are o
 
 ## <a name="publish-the-catalog"></a>Publish the catalog
 By publishing a catalog for a call center, you finalize the product information in the catalog. Publication also indicates that the catalog is ready for any additional actions that you want to perform. For example, you can create a printed catalog. You can publish your catalogs manually, or you can use a batch process to publish according to a schedule. Before you can publish a catalog, the catalog must be validated and approved. To change the catalog after it's published, you can retract the catalog and then republish it.
+
+
 
 

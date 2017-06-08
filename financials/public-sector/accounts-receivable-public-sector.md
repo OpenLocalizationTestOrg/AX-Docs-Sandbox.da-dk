@@ -3,31 +3,35 @@ title: Accounts receivable in the public sector
 description: This topic describes the Accounts receivable functionality that is available for the public sector.
 author: rschloma
 manager: AnnBe
-ms.date: 2015-12-12 23 - 44 - 39
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustInvoiceJournal, CustParameters, CustTradingPartnerCode
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 26281
 ms.assetid: a411ec87-a209-471c-a141-5f5a92f2e45e
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: brpotter
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: ed84e71f87183a826b9ccc3df2eae97f92bc5849
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: b7e6dde8ee9e2caf874f4531424c3a78bfe0200a
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="accounts-receivable-in-the-public-sector"></a>Accounts receivable in the public sector
+
+[!include[banner](../includes/banner.md)]
+
 
 This topic describes the Accounts receivable functionality that is available for the public sector.
 
@@ -61,6 +65,8 @@ You can use posting definitions to create subledger journal lines for originatin
 <a name="see-also"></a>See also
 --------
 
-[Accounts receivable](accounts-receivable.md)
+[Accounts receivable](..\accounts-receivable\accounts-receivable.md)
+
+
 
 

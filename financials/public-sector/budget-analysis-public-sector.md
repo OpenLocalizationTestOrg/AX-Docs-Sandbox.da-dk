@@ -1,43 +1,56 @@
 ---
 title: Budget analysis in the public sector
 description: This topic describes how to use the Budget analysis page to view revenues and expenditures by financial dimension, and it answers frequently asked questions, including differences between the Budget analysis page and the Budget control statistics page.
-author: rschloma
+author: twheeloc
 manager: AnnBe
-ms.date: 2015-12-07 16 - 23 - 04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BudgetAnalysisInquiry_PSN, BudgetControlStatistics, DimensionDetails, LedgerPeriodCode, LedgerTrialBalanceListPage
 audience: Application User
-ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations
+ms.reviewer: twheeloc
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 19641
 ms.assetid: a1055712-0a20-425d-939d-de8564c358b8
 ms.search.region: Global
 ms.search.industry: Public sector
 ms.author: brpotter
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 62995086f66c3fce451f6b6a7a848b10fcafcac9
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 51790a47c93b0cfbdc39a8aa480bb641142eb055
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="budget-analysis-in-the-public-sector"></a>Budget analysis in the public sector
 
+[!include[banner](../includes/banner.md)]
+
+
 This topic describes how to use the Budget analysis page to view revenues and expenditures by financial dimension, and it answers frequently asked questions, including differences between the Budget analysis page and the Budget control statistics page. 
 
-This topic describes the budget analysis functionality available for the public sector. Before you read this topic, you should also read [Budgeting in the public sector.](budgeting-public-sector.md) You may be required to set up the following Budgeting features for the public sector. Use the **Budget analysis** page to view revenues and expenditures by financial dimension, using a combination of general ledger and budget control data. You can view summarized amounts and transaction details for revised budgets, actual expenditures, encumbrances, and pre-encumbrances. The revenues and expenditures can be summarized by the different levels of the financial dimensions. For example, if the budget dimensions are fund, organization, and main account, you can select **Fund**, **Organization**, or **Main account** to see the financial activity summarized at that level. You also use the **Budget analysis** page to select a financial dimension set and a column set. Select or specify the following, and then click **Update totals:**
+This topic describes the budget analysis functionality available for the public sector. 
+
+Before you read this topic, you should also read [Budgeting in the public sector.](budgeting-public-sector.md). 
+
+You may be required to set up the following Budgeting features for the public sector. Use the **Budget analysis** page to view revenues and expenditures by financial dimension, using a combination of general ledger and budget control data. You can view summarized amounts and transaction details for revised budgets, actual expenditures, encumbrances, and pre-encumbrances. 
+
+The revenues and expenditures can be summarized by the different levels of the financial dimensions. For example, if the budget dimensions are fund, organization, and main account, you can select **Fund**, **Organization**, or **Main account** to see the financial activity summarized at that level. 
+
+You also use the **Budget analysis** page to select a financial dimension set and a column set. Select or specify the following, and then click **Update totals:**
 
 -   Parameters
 -   Date information
 -   Financial dimensions
 
-**Note** You create financial dimensions on the **Financial dimensions** page. You specify the date interval for included transactions on the **Date intervals** page in General ledger.
+> [!NOTE] 
+> You create financial dimensions on the **Financial dimensions** page. You specify the date interval for included transactions on the **Date intervals** page in General ledger.
 
 ## <a name="what-transaction-details-are-available-on-the-budget-analysis-page"></a>What transaction details are available on the Budget analysis page?
 You can select an item in the grid and drill down to see the following transaction details:
@@ -54,7 +67,9 @@ You can select an item in the grid and drill down to see the following transacti
 -   To view the pre-encumbrances and the referenced transactions for the budget analysis inquiry, click **Pre-encumbrance**. The page affects the purchase requisition for the selected transaction. These amounts come from the budget source tracking tables.
 
 ## <a name="should-i-use-the-budget-control-statistics-page-or-the-budget-analysis-page"></a>Should I use the Budget control statistics page or the Budget analysis page?
-The **Budget control statistics** page is the tool to use when you want to analyze a single budget account, or a combination or group of accounts by period and budget control dimension. The **Budget analysis** page is more flexible. You can use it to query in any dimension order across the chart of accounts or to query a subset of an account. For example, you could view a list of year-to-date fund totals, drill down to a specific fund to view department totals, and then drill down to a specific department to view account totals. The following table explains the differences between these pages.
+The **Budget control statistics** page is the tool to use when you want to analyze a single budget account, or a combination or group of accounts by period and budget control dimension. The **Budget analysis** page is more flexible. You can use it to query in any dimension order across the chart of accounts or to query a subset of an account. For example, you could view a list of year-to-date fund totals, drill down to a specific fund to view department totals, and then drill down to a specific department to view account totals.
+
+The following table explains the differences between these pages.
 
 |                                                                                                                         |                                                                                             |
 |-------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
@@ -63,7 +78,8 @@ The **Budget control statistics** page is the tool to use when you want to analy
 | Includes data from both confirmed and unconfirmed encumbrances.                                                         | Includes data from confirmed encumbrances only.                                             |
 | Includes data from expense accounts only.                                                                               | Includes data from both revenue and expense accounts.                                       |
 
-**Note** If you want the available or remaining budget amounts to include draft transactions, use the **Budget control statistics** page. The **Budget analysis** page displays only posted transactions.
+> [!NOTE] 
+> If you want the available or remaining budget amounts to include draft transactions, use the **Budget control statistics** page. The **Budget analysis** page displays only posted transactions.
 
 ## <a name="can-i-export-the-budget-analysis-results-to-microsoft-excel"></a>Can I export the budget analysis results to Microsoft Excel?
 Yes, you can export budget analysis results. On the **Budget analysis** page, press Ctrl+Shift+E.
@@ -91,9 +107,8 @@ If the grids are empty in the **Budget analysis** page, try the following action
 ## <a name="how-do-i-see-updated-numbers-in-the-columns-when-i-change-the-dimension-set-dates-posting-layers-and-other-settings"></a>How do I see updated numbers in the columns when I change the dimension set, dates, posting layers, and other settings?
 After you change the settings at the top of the page, click **Update totals** to see the results of your query.
 
-<a name="see-also"></a>See also
---------
 
-[Budgeting in the public sector](https://ax.help.dynamics.com/en/wiki/Budgeting-in-the-public-sector/)
+
+
 
 

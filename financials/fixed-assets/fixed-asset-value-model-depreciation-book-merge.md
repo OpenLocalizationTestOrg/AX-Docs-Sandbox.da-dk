@@ -3,28 +3,32 @@ title: Fixed asset value model and depreciation book merge
 description: In previous releases, there were two valuation concepts for fixed assets -  value models and depreciation books. In the Microsoft Dynamics 365 for Operations 1611 release, the value model functionality and depreciation book functionality have been merged into a single concept that is known as a book.
 author: twheeloc
 manager: AnnBe
-ms.date: 2016-10-31 16 - 21 - 54
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations
+ms.search.scope: Operations, Core
 ms.custom: 221564
 ms.assetid: 7c68eb7c-8b1a-4dd9-afb8-04b4040e305e
 ms.search.region: Global
 ms.author: saraschi
-ms.dyn365.ops.intro: 01-11-2016
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 178c190f40e2b529a309325c4384d8c8e389a1be
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: ed01fc3c5f2f8b0870f22b39a8b0f6e98596af21
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Fixed asset value model and depreciation book merge
+
+[!include[banner](../includes/banner.md)]
+
 
 In previous releases, there were two valuation concepts for fixed assets -  value models and depreciation books. In the Microsoft Dynamics 365 for Operations 1611 release, the value model functionality and depreciation book functionality have been merged into a single concept that is known as a book.
 
@@ -66,5 +70,7 @@ Inquiries and reports support all books. Reports that aren't included in the fol
 
 ## <a name="upgrade"></a>Upgrade
 The upgrade process will move your existing setup and all your existing transactions to the new book structure. Value models will remain as they currently are, as a book that posts to the general ledger. However, depreciation books will be moved to a book that has the **Post to general ledger** option set to **No**. Depreciation book journal names will be moved to a general ledger journal name that has the posting layer set to **None**.
+
+
 
 

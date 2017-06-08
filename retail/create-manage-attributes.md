@@ -3,30 +3,34 @@ title: Create and manage attributes
 description: This article describes attributes in Microsoft Dynamics 365 for Operations. Attributes let you describe a product and its characteristics through user-defined fields.
 author: josaw1
 manager: AnnBe
-ms.date: 2015-12-04 02 - 16 - 20
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16461
 ms.assetid: 2b85491c-f830-4e79-a2cb-681b7ced6988
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: prabhup
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 22b3216519f7a9f4f811d9fec6dcd71a2721676e
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: eaee0edb4822a386c8781d9929999cea326f0a40
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="create-and-manage-attributes"></a>Create and manage attributes
+
+[!include[banner](includes/banner.md)]
+
 
 This article describes attributes in Microsoft Dynamics 365 for Operations. Attributes let you describe a product and its characteristics through user-defined fields.
 
@@ -34,110 +38,28 @@ Attributes let you describe a product and its characteristics through user-defin
 
 #### <a name="examples"></a>Examples
 
-Category
+| Category   | Attribute                | Permissible values          | Default value |
+|------------|--------------------------|-----------------------------|---------------|
+| TV & Video | Brand                    | Any valid Brand value       | None          |
+| TV         | Screen Size              | 20″–80″                     | None          |
+| TV         | Vertical Resolution      | 480i, 720p, 1080i, or 1080p | 1080p         |
+| TV         | Screen Refresh Rate      | 60hz, 120hz, or 240hz       | 60hz          |
+| TV         | HDMI Inputs              | 0–10                        | 3             |
+| TV         | DVI Inputs               | 0–10                        | 1             |
+| TV         | Composite Inputs         | 0–10                        | 2             |
+| TV         | Component Inputs         | 0–10                        | 1             |
+| LCD        | 3D Ready                 | Yes or No                   | Yes           |
+| LCD        | 3D Enabled               | Yes or No                   | No            |
+| Plasma     | Operating Temp From      | 32–110 degrees              | 32            |
+| Plasma     | Operating Temp To        | 32–110 degrees              | 100           |
+| Projection | Projection Tube Warranty | 6, 12, or 18 months         | 12            |
+| Projection | # of Projection Tubes    | 1–5                         | 3             |
 
-Attribute
-
-Permissible values
-
-Default value
-
-TV & Video
-
-Brand
-
-Any valid **Brand** value
-
-None
-
-TV
-
-Screen Size
-
-**20"**–**80"**
-
-None
-
-Vertical Resolution
-
-**480i**, **720p**, **1080i**, or **1080p**
-
-**1080p**
-
-Screen Refresh Rate
-
-**60hz**, **120hz**, or **240hz**
-
-**60hz**
-
-HDMI Inputs
-
-**0**–**10**
-
-**3**
-
-DVI Inputs
-
-**0**–**10**
-
-**1**
-
-Composite Inputs
-
-**0**–**10**
-
-**2**
-
-Component Inputs
-
-**0**–**10**
-
-**1**
-
-LCD
-
-3D Ready
-
-**Yes** or **No**
-
-**Yes**
-
-3D Enabled
-
-**Yes** or **No**
-
-**No**
-
-Plasma
-
-Operating Temp From
-
-**32**–**110** degrees
-
-**32**
-
-Operating Temp To
-
-**32**–**110** degrees
-
-**100**
-
-Projection
-
-Projection Tube Warranty
-
-**6**, **12**, or **18** months
-
-**12**
-
-\# of Projection Tubes
-
-**1**–**5**
-
-**3**
 
 ## <a name="attribute-type"></a>Attribute type
-  [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) Attributes are based on attribute types. Attribute types identify the type of data that can be entered for a specific attribute. Currently, Microsoft Dynamics 365 for Operations supports the following attribute types:
+  [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) 
+  
+Attributes are based on attribute types. Attribute types identify the type of data that can be entered for a specific attribute. Currently, Microsoft Dynamics 365 for Operations supports the following attribute types:
 
 -   **Currency** – This attribute type supports currency values. It can be bounded (that is, it can support a value range), or it can be left open.
 -   **DateTime** – This attribute type supports date and time values. It can be bounded (that is, it can support a value range), or it can be left open.
@@ -174,5 +96,7 @@ Projection Tube Warranty
 ### <a name="at-the-retail-channel-level"></a>At the retail channel level
 
   [![createandmanageattribute-1](./media/createandmanageattribute-1.jpg)](./media/createandmanageattribute-1.jpg) The default values of attributes can be overridden for individual products in specific catalogs that are targeted for specific retail channels.
+
+
 
 

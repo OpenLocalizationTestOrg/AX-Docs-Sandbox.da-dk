@@ -3,28 +3,32 @@ title: Currency revaluation in a consolidation company
 description: 
 author: rschloma
 manager: AnnBe
-ms.date: 2016-03-08 17 - 49 - 53
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 62183
 ms.assetid: 2762baaf-0c10-4ff7-8713-c506d6c29b98
 ms.search.region: Global
 ms.author: hminzner
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: c8db360ea2b7ab3ba35ef0fb9e0d380645202316
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 39bcd3d07aa41076debc6b500381ade61763dc33
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="currency-revaluation-in-a-consolidation-company"></a>Currency revaluation in a consolidation company
+
+[!include[banner](../includes/banner.md)]
+
 
 
 
@@ -82,6 +86,8 @@ You will see additional transactions for the reporting currency amounts.
 | 130100         | EUR      | -500.00 | Original amount of -500 × 1                          |
 | 801400         | EUR      | 250     | 500 – 333.33 = 166.67 166.67 + 83.33 = 250           |
 | 801600         | EUR      | -250    | -500 – (-333.33) = -166.67 -166.67 + (-83.33) = -250 |
+
+
 
 
 

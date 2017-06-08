@@ -3,10 +3,10 @@ title: Create a workflow
 description: This topics explains how to create a workflow.
 author: sericks007
 manager: AnnBe
-ms.date: 2016-09-30 15 - 53 - 09
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: Core
@@ -14,17 +14,21 @@ ms.custom: 195583
 ms.assetid: 836ddd01-cc34-45c3-a4b0-20647357dbc6
 ms.search.region: Global
 ms.author: donaldc
-ms.dyn365.ops.intro: 01-08-2016
+ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 77e46a285c02f0147ddc1b042a912e115c309c94
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: bf8f87fffa655b0e8566147af31c8fff02e045ad
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="create-a-workflow"></a>Create a workflow
+
+[!include[banner](../includes/banner.md)]
+
 
 This topics explains how to create a workflow.
 
@@ -49,7 +53,7 @@ Follow these steps to configure the properties of the workflow.
 
 1.  Click the canvas to make sure that no workflow element is selected.
 2.  Click **Properties** to open the **Properties** page for the workflow.
-3.  Follow the procedures in the [Configure the properties of a workflow](http://axhelp.dynamics.com/en/wiki/configure-the-properties-of-a-workflow/) topic.
+3.  Follow the procedures in the [Configure the properties of a workflow](configure-workflow-properties.md) topic.
 
 ## <a name="configure-the-elements-of-the-workflow"></a>Configure the elements of the workflow
 Configure each element that you dragged onto the canvas. For information about how to configure each workflow element, see the following topics:
@@ -61,7 +65,7 @@ Configure each element that you dragged onto the canvas. For information about h
 -   [Configure a manual decision](configure-manual-decision-workflow.md)
 -   [Configure a conditional decision](configure-conditional-decision-workflow.md)
 -   [Configure a parallel activity](configure-parallel-activity-workflow.md)
--   [Configure a parallel branch](http://ax.help.dynamics.com/en/wiki/configure-a-parallel-branch/)
+-   [Configure a parallel branch](configure-parallel-branch-workflow.md)
 -   [Configure a line-item workflow](configure-line-item-workflow.md)
 
 ## <a name="resolve-any-errors-or-warnings"></a>Resolve any errors or warnings
@@ -75,6 +79,8 @@ When you're ready to save and activate the workflow, follow these steps.
 3.  If all errors and warnings have been resolved, the **Activate workflow** page appears. Select one of the following options:
     -   To activate this version of the workflow, click **Activate the new version**. When a workflow is active, users can submit documents to it for processing.
     -   If you don't want to activate this version, click **Do not activate the new version**. You can activate the workflow later.
+
+
 
 
 

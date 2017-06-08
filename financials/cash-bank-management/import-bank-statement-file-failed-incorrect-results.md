@@ -3,28 +3,32 @@ title: Bank statement file import troubleshooting
 description: It&quot;s important that the bank statement file from the bank match the layout that Microsoft Dynamics 365 for Operations supports. Because of strict standards for bank statements, most integrations will work correctly. However, sometimes the statement file can&quot;t be imported or has incorrect results. Typically, these issues are caused by small differences in the bank statement file. This article explains how to fix these differences and resolve the issues.
 author: twheeloc
 manager: AnnBe
-ms.date: 2016-08-18 15 - 22 - 16
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 141273
 ms.assetid: 3ee2f32b-02aa-420b-8990-e6aa5fc6bda3
 ms.search.region: global
 ms.author: saraschi
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 58c2057fa6141544d0ce8e86beb49331e1f1e192
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: e2029a03cf6b46ee206417076c64a269080119ed
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="bank-statement-file-import-troubleshooting"></a>Bank statement file import troubleshooting
+
+[!include[banner](../includes/banner.md)]
+
 
 It's important that the bank statement file from the bank match the layout that Microsoft Dynamics 365 for Operations supports. Because of strict standards for bank statements, most integrations will work correctly. However, sometimes the statement file can't be imported or has incorrect results. Typically, these issues are caused by small differences in the bank statement file. This article explains how to fix these differences and resolve the issues.
 
@@ -87,13 +91,16 @@ Sometimes, debits might be imported as credits, and credits might be imported as
 -   MT940XML-to-Reconcilation.xslt GetCreditDebitIndicator template
 
 ## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Examples of bank statement formats and technical layouts
-The following table lists examples of the technical layout definitions for advanced bank reconciliation import files and three related bank statement example files.
+The following table lists examples of the technical layout definitions for advanced bank reconciliation import files and three related bank statement example files. You can download the example files and technical layouts here: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
 
-| Technical layout definition                                                                                       | Bank statement example file                                                                                     |
-|-------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| [DynamicsAXMT940Layout](./media/dynamicsaxmt940layout1.xlsx)       | [MT940StatementExample](./media/mt940statementexample.pdf)       |
-| [DynamicsAXISO20022Layout](./media/dynamicsaxiso20022layout1.xlsx) | [ISO20022StatementExample](./media/iso20022statementexample.pdf) |
-| [DynamicsAXBAI2Layout](./media/dynamicsaxbai2layout1.xlsx)         | [BAI2StatementExample](./media/bai2statementexample.pdf)         |
+
+| Technical layout definition                             | Bank statement example file          |
+|---------------------------------------------------------|--------------------------------------|
+| DynamicsAXMT940Layout                                   | MT940StatementExample                |
+| DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
+| DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
+
+
 
 
 

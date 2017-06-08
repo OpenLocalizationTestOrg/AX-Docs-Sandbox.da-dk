@@ -3,29 +3,33 @@ title: Online store overview
 description: This article provides information about Retail online stores and how to set them up in Microsoft Dynamics 365 for Operations.
 author: kfend
 manager: AnnBe
-ms.date: 2015-12-03 22 - 19 - 19
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16161
 ms.assetid: 646d560c-f856-4701-b4ca-44e357ef09b8
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: meeram
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: f172e23cfdea7a4a7fdac51a72ba363701d2ee29
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 784444258a324eeefb5b96ae518ef4123ac219d4
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="online-store-overview"></a>Online store overview
+
+[!include[banner](includes/banner.md)]
+
 
 This article provides information about Retail online stores and how to set them up in Microsoft Dynamics 365 for Operations.
 
@@ -50,5 +54,7 @@ Before you create an online store, you must define the retail channel navigation
 
 ## <a name="organization-hierarchies"></a>Organization hierarchies
 Organization hierarchies are used to structure retail channels. Organization hierarchies represent the relationships between the organizations that make up your business. When you set up online stores, you can add them to an organization hierarchy. The stores then share the data that is used for assortments, replenishment, and reporting. When you create an organization hierarchy, you assign a purpose to it. The purpose indicates how the hierarchy is used in the business structure. You can create one organization hierarchy for your store operations, and use that hierarchy for assortments, replenishment, and reporting. Alternatively, you can create a separate organization hierarchy for each purpose. You can also create multiple hierarchies that have the same purpose, and assign a separate channel to each one. If you plan to publish retail product catalogs to the online store, you should, at a minimum, add the online store to an organization hierarchy for assortments. The products in a catalog are selected from the assortments that are assigned to the online store. When the catalog is published, the publishing process compares the effective dates for the assortment that is assigned to the online store with the products that are included in the catalog to determine which products to make available in the online store.
+
+
 
 

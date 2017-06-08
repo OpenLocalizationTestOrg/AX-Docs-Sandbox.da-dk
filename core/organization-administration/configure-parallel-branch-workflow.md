@@ -3,28 +3,32 @@ title: Configure a parallel branch in a workflow
 description: To configure a parallel branch, complete the following procedures in the workflow editor.
 author: sericks007
 manager: AnnBe
-ms.date: 2016-09-30 20 - 52 - 48
-ms.topic: 
+ms.date: 04/04/2017
+ms.topic: article
 ms.prod: 
-ms.service: 
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 196043
 ms.assetid: dfdae2b8-6a4f-4760-b339-b755c66f3f89
 ms.search.region: Global
 ms.author: donaldc
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 39de65037fe0ea4aee68a7ef19b588d39edca8bc
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 8d53528f2250cfecbbe0dda25fc53b6e9046af10
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="configure-a-parallel-branch-in-a-workflow"></a>Configure a parallel branch in a workflow
+
+[!include[banner](../includes/banner.md)]
+
 
 To configure a parallel branch, complete the following procedures in the workflow editor.
 
@@ -48,5 +52,7 @@ Follow these steps to design and configure the elements of a parallel branch.
 --------
 
 [Create a workflow](create-workflow.md)
+
+
 
 

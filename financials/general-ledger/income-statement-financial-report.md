@@ -3,29 +3,33 @@ title: Income statement financial report
 description: This article describes the default report for income statements. It also describes the building blocks that are associated with this report.
 author: twheeloc
 manager: AnnBe
-ms.date: 2015-11-04 19 - 35 - 20
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 12294
 ms.assetid: 30820be0-d943-4f8b-8c25-6414ec393b3d
 ms.search.region: Global
 ms.author: jcart
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: aaaa3afd03173a550f6157cea51f443dd9f0dd53
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 1773a36ab58f1b24c544c08dc1c48039513e28d9
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="income-statement-financial-report"></a>Income statement financial report
+
+[!include[banner](../includes/banner.md)]
+
 
 This article describes the default report for income statements. It also describes the building blocks that are associated with this report. 
 
@@ -66,5 +70,7 @@ The column definitions contain different types of columns to provide different l
 [View financial reports](view-financial-reports.md)
 
 [Dynamics Financial Reportign Blog](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

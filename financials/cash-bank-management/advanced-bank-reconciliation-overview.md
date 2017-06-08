@@ -1,32 +1,36 @@
 ---
 title: Advanced bank reconciliation overview
 description: This article describes the flow for the advanced bank reconciliation process. The advanced bank reconciliation feature lets you import bank statements that can be automatically reconciled from within bank transactions.
-author: ShylaThompson
+author: twheeloc
 manager: AnnBe
-ms.date: 2015-12-11 21 - 23 - 46
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BankReconciliationMatchRule
 audience: Application User
-ms.reviewer: ShylaThompson
-ms.search.scope: AX 7.0.0, Operations
+ms.reviewer: twheeloc
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 22104
 ms.assetid: b0705653-1fa6-4d94-9728-bcf9fb387ad1
 ms.search.region: Global
 ms.author: leguo
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 26b626af83b7fc1ed174a3db271b1a308bf92cbe
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: deba55d5e1e376f3f4063f372bfe853fcaf20498
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="advanced-bank-reconciliation-overview"></a>Advanced bank reconciliation overview
+
+[!include[banner](../includes/banner.md)]
+
 
 This article describes the flow for the advanced bank reconciliation process. The advanced bank reconciliation feature lets you import bank statements that can be automatically reconciled from within bank transactions.
 
@@ -45,6 +49,8 @@ The advanced bank reconciliation feature lets you import bank statements. The im
     -   View bank statements and Dynamics 365 for Operations bank transactions side by side.
     -   Automatically post Dynamics 365 for Operations bank transactions if they appear on a bank statement but don't appear in Dynamics 365 for Operations.
     -   Generate a reconciliation statement.
+
+
 
 
 

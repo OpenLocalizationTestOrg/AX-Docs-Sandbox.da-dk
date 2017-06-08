@@ -3,29 +3,33 @@ title: Convert accounting or reporting currencies
 description: 
 author: RobinARH
 manager: AnnBe
-ms.date: 2016-04-05 14 - 45 - 05
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 78223
 ms.assetid: 31c56f9a-9c64-40a2-90e3-1969a760614b
 ms.search.region: Global
 ms.author: aolson
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 0b317971171f8039719d52917f7d5f5226839638
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 728af2fff6317c17e47d48ea07dbeb57068fbf3f
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="convert-accounting-or-reporting-currencies"></a>Convert accounting or reporting currencies
+
+[!include[banner](../includes/banner.md)]
+
 
 
 
@@ -73,5 +77,7 @@ After the currency conversion, you must generate all reconciliation reports agai
 -   If the customer and vendor reconciliation reports display a difference amount on the total line, and no difference amount existed before the conversion, this difference amount must be posted. The account is the summary account for customers and vendors. The offset account is the ledger account for conversion loss or conversion profit.
 
 When all ledger transaction journals have been deleted, you can journalize the ledger transactions. Click **General ledger** &gt; **Periodic** &gt; **Journals** &gt; **Journalizing**. You can revalue foreign currency amounts after the currency conversion, if revaluation is required. You revalue foreign currency amounts by selecting **Standard** in the **Method** field for the revaluation.
+
+
 
 

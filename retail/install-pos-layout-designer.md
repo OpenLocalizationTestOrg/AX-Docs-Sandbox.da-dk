@@ -3,36 +3,40 @@ title: Install the Retail POS Layout designer
 description: You can use the one-click designer to design different Retail Modern POS (MPOS) and Cloud POS layouts, in either Landscape mode or Portrait mode, for stores, registers, cashiers, and managers.
 author: MargoC
 manager: AnnBe
-ms.date: 2016-10-28 19 - 05 - 13
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: RetailTillLayout
 audience: Application User
-ms.search.scope: Operations
+ms.search.scope: Operations, Core
 ms.custom: 219684
 ms.assetid: 2e2c4eea-c6e2-4912-9832-a6b22416e39f
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: athinesh
-ms.dyn365.ops.intro: 01-11-2016
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 6cd38bb8f920a5a94b2053ca386639b66a743113
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: abda7cfb5826ce3a9e1b3c2f2d1052312dcee922
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="install-the-retail-pos-layout-designer"></a>Install the Retail POS Layout designer
 
+[!include[banner](includes/banner.md)]
+
+
 You can use the one-click designer to design different Retail Modern POS (MPOS) and Cloud POS layouts, in either Landscape mode or Portrait mode, for stores, registers, cashiers, and managers.
 
 The graphical design interface for MPOS or Cloud POS is controlled by the till layout. A layout controls the position of various objects. Examples include the total layout, the item grid layout, the customer layout, the payment layout, and the layout of various menu buttons. Layouts also include the overall appearance of the sales interface that is presented to workers.
 
-## <a name="install-the-oneclick-designer"></a>Install the oneclick designer
+## <a name="install-the-one-click-designer"></a>Install the one-click designer
 1.  In Microsoft Dynamics 365 for Operations, use the menu in the upper left to navigate to **Retail** **and commerce** &gt; **Channel setup** &gt; **POS setup** &gt; **POS** &gt; **Screen layouts**.
 2.  Select any layout that has an application type of **Modern POS for Windows** or **Cloud POS**, and then click **Layout designer**.
 3.  On the notification bar that appears at the bottom of the Internet Explorer window, click **Open** to install the one-click designer. (The notification bar might appear in a different place in other browsers.)
@@ -52,5 +56,7 @@ The graphical design interface for MPOS or Cloud POS is controlled by the till l
 --------
 
 [Configure, download, install, and activate Retail Modern POS](retail-modern-pos-device-activation.md)
+
+
 
 

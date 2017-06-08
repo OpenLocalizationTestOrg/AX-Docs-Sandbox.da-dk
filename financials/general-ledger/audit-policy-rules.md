@@ -3,30 +3,34 @@ title: Audit policy rules
 description: You can use audit policies to evaluate expense reports, vendor invoices, and purchase orders to make sure that they comply with policy rules that you create. All of the rules that are associated with an audit policy are run in batch mode, according to a schedule that you specify.  Each policy rule is an instance of a policy rule type. For each policy rule type, only one policy rule can be active at a time.
 author: twheeloc
 manager: AnnBe
-ms.date: 2015-12-01 16 - 25 - 46
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 12991
 ms.assetid: 8d787017-71dc-418f-b8c2-4ea9763d9978
 ms.search.region: Global
 ms.author: ryansand
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: d1972efd3dec7d24ca7169680610732a030350bd
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 43d2595a4a80e68ed1c0e5639e5413d732fe6a32
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="audit-policy-rules"></a>Audit policy rules
+
+[!include[banner](../includes/banner.md)]
+
 
 You can use audit policies to evaluate expense reports, vendor invoices, and purchase orders to make sure that they comply with policy rules that you create. All of the rules that are associated with an audit policy are run in batch mode, according to a schedule that you specify.  Each policy rule is an instance of a policy rule type. For each policy rule type, only one policy rule can be active at a time. 
 
@@ -96,6 +100,8 @@ All of the policy rules for a particular audit policy share the same batch param
 <a name="see-also"></a>See also
 --------
 
-[Audit policy violations and cases](https://ax.help.dynamics.com/en/wiki/audit-policy-v…ns-and-cases-2/)
+[Audit policy violations and cases](audit-policy-violations-cases.md)
+
+
 
 

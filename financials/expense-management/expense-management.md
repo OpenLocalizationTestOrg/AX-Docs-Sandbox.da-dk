@@ -3,31 +3,37 @@ title: Expense management
 description: 
 author: kfend
 manager: AnnBe
-ms.date: 2015-12-03 18 - 34 - 29
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 15001
 ms.assetid: 2d97d69b-9c08-4f0d-9637-68759fd34d34
 ms.search.region: Global
 ms.author: kfend
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 74ae9dded98d1644518026237d06c7d2de7d451b
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: b9a9c99db03620268ad806ae362b3654c16a6e53
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="expense-management"></a>Expense management
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 [Planning expense management](plan-expense-management.md) More information will be added later; check back soon.
+
+
 
 

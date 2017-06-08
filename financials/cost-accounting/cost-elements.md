@@ -3,29 +3,33 @@ title: Cost element dimensions
 description: As one of the core pillars in Cost accounting, cost element dimensions are used to categorize and track where costs flow to.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-11-01 13 - 33 - 03
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMDimension
 audience: Application User
-ms.search.scope: Operations
+ms.search.scope: Operations, Core
 ms.custom: 223204
 ms.assetid: 1eda0e62-760b-4737-9dfd-3c3c38d80c1a
 ms.search.region: global
 ms.author: yuyus
-ms.dyn365.ops.intro: 01-11-2016
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: e5660e90321e6e8e9fb8b24644c691e8c812c8ad
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: c06f4f636a58ac8068415b1291bd8668e7a977d5
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="cost-element-dimensions"></a>Cost element dimensions
+
+[!include[banner](../includes/banner.md)]
+
 
 As one of the core pillars in Cost accounting, cost element dimensions are used to categorize and track where costs flow to. 
 
@@ -62,12 +66,16 @@ There are two types of cost elements: primary cost elements and secondary cost e
 </table>
 
 ## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a>Cost element dimensions and cost element dimension members
-Cost elements are referred to as *cost element dimensions* . The individual dimension values are called *cost element dimension members*. For example, you have a US chart of accounts structure (COA) that is the base for your statutory reporting. This COA is used as the cost element dimension. The accounts, which are primary cost elements, are represented as the cost element dimension members in Cost accounting. The following screenshot shows an example of Main Accounts as the cost element dimension with its actual main accounts as the cost element dimension members. [![cost-element-dimensions](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
+Cost elements are referred to as *cost element dimensions* . The individual dimension values are called *cost element dimension members*. For example, you have a US chart of accounts structure (COA) that is the base for your statutory reporting. This COA is used as the cost element dimension. The accounts, which are primary cost elements, are represented as the cost element dimension members in Cost accounting. The following screenshot shows an example of Main Accounts as the cost element dimension with its actual main accounts as the cost element dimension members. 
+
+[![cost-element-dimensions](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
 
 ## <a name="import-cost-element-dimension-members-through-data-connectors"></a>Import cost element dimension members through data connectors
 To ease the setup of cost element dimension members in Cost accounting, you can use data connectors that are either pre-built or your custom build to retrieve the primary cost elements from one or more source systems.
 
 ## <a name="implementation-considerations"></a>Implementation considerations
 As cost elements represent the lowest level of cost details, you should make sure that all the cost elements required to make the managerial reporting are included when you implement the cost elements structure. It can be a challenge to find an appropriate number of cost elements for cost control. Having thousands of cost elements can make it difficult to control each cost element. As an alternative, you can group cost elements and manage cost control at an aggregated level.
+
+
 
 

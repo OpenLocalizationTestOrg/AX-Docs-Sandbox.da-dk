@@ -1,34 +1,38 @@
 ---
 title: Configure Accounts payable
-description: This article describes the pages that you use to set up basic and optional functionality for Accounts payable in Microsoft Dynamics AX. It also describes setup steps that you must complete before you start to set up Accounts payable.
+description: This article describes the pages that you use to set up basic and optional functionality for Accounts payable in Microsoft Dynamics 365 for Operations. It also describes setup steps that you must complete before you start to set up Accounts payable.
 author: twheeloc
 manager: AnnBe
-ms.date: 2015-12-12 19 - 13 - 45
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BankAccountTable, DeliveryMode, PaymTerm, VendGroup, VendParameters, VendPaymMode, VendTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 24671
 ms.assetid: 82561fe7-b2d6-464c-9347-79d0ce0f9743
 ms.search.region: Global
 ms.author: mfalkner
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 52410ba3eafdb50dc445f36a9d3ac7e2385b95a6
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: fab98d9fa267c5ffe223a6721095ca26eccf6911
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="configure-accounts-payable"></a>Configure Accounts payable
 
-This article describes the pages that you use to set up basic and optional functionality for Accounts payable in Microsoft Dynamics AX. It also describes setup steps that you must complete before you start to set up Accounts payable.
+[!include[banner](../includes/banner.md)]
+
+
+This article describes the pages that you use to set up basic and optional functionality for Accounts payable in Microsoft Dynamics 365 for Operations. It also describes setup steps that you must complete before you start to set up Accounts payable.
 
 <a name="prerequisites-for-accounts-payable-setup"></a>Prerequisites for Accounts payable setup
 ----------------------------------------
@@ -40,7 +44,8 @@ Before you can set up Accounts payable, you must complete the following setup:
     -   If you plan to run exchange rate adjustments, set up currency codes on the Currencies page, set up exchange rate types on the Exchange rate types page, and set up currency exchange rates on the Currency exchange rates page.
 -   In Cash and bank management, set up bank accounts to use with methods of payment.
 
-## <a name="setup-pages-for-accounts-payable"></a>[Setup pages for Accounts payable]
+## <a name="setup-pages-for-accounts-payable"></a>Setup pages for Accounts payable
+
 Use the following pages to set up the basic functionality of Accounts payable for each legal entity. The pages are listed in the recommended order of setup. To make the setup process easier, you can create templates from the first records that you create. In a template, values are typically entered in many fields to reflect the features that the organization wants to implement for a particular type of vendor.
 1.  On the Terms of payment page, define the terms of payment that you assign to sales orders, purchase orders, customers, and vendors, and that determine invoice due dates.
 2.  On the Methods of payment - vendors page, create and maintain information about how the organization pays its vendors.
@@ -50,14 +55,15 @@ Use the following pages to set up the basic functionality of Accounts payable fo
 6.  On the Form setup page, define the format of various documents that are related to vendors, and that the organization uses to keep track of receipts from vendors and enter reasons for the flow of payments to vendors.
 7.  On the Vendors page, create and maintain vendor accounts, and also the tax authorities that your organization reports sales taxes to.
 
-## <a name="optional-setup-pages-for-accounts-payable"></a>[Optional setup pages for Accounts payable]
+## <a name="optional-setup-pages-for-accounts-payable"></a>Optional setup pages for Accounts payable
 In addition to the basic functionality, Accounts payable has other functionality that you can set up.
 
 The additional setup pages are organized by functionality.
-**[Policies]**
+
+**Policies**
 -   On the Vendor invoice policy page, set up vendor invoice policies.
 
-**[Invoice matching]**
+**Invoice matching**
 
 -   On the Invoice totals tolerances page, set up tolerances for invoice totals.
 -   On the Matching policy page, set up two-way and three-way matching policies.
@@ -70,35 +76,35 @@ The additional setup pages are organized by functionality.
 
 -   On the Accounts payable workflows page, set up workflow configurations for journal approvals and purchase requisitions.
 
-**[Reasons]**
+**Reasons**
 
 -   On the Vendor reasons page, set up reason codes.
 
-**[Charges]**
+**Charges**
 
 -   On the Charges code page, set up codes for the charges that are used in purchase orders.
 -   On the Vendor charges group page, create and maintain charges groups for vendors.
 -   On the Item charge groups page, create and maintain charges groups for items.
 -   On the Auto charges page, define the charges that are automatically assigned to orders.
 
-**[Supplementary items]**
+**Supplementary items**
 
 -   On the Supplementary item groups - Vendor page, create and maintain supplementary item groups for vendors.
 -   On the Supplementary item groups - Inventory page, create and maintain supplementary item groups for items.
 
-**[Distribution]**
+**Distribution**
 
 -   On the Terms of delivery page, create and maintain the conditions for an item's transfer from seller to buyer.
 -   On the Modes of delivery page, create and maintain the methods of transport that are used when an order is delivered from the seller to the buyer.
 -   On the Destination codes page, create and maintain identifiers and descriptions for delivery destinations.
 
-**[Forms]**
+**Forms**
 
 -   On the Form notes page, create the standard text that appears on various pages.
 -   On the Form sorting parameters page, set up the sorting order for requisitions, receipt lists, packing slips, and invoices.
 -   On the Print management setup page, set up print management information for originals and copies of pages.
 
-**[Payments]**
+**Payments**
 
 -   On the Cash discounts page, set up and manage the terms for obtaining cash discounts. The cash discount codes are linked to vendors and are applied to purchase orders.
 -   On the Payment schedules page, set up the payment schedules that are used to manage installment payments to vendors.
@@ -106,17 +112,17 @@ The additional setup pages are organized by functionality.
 -   On the Payment fee page, create and maintain the payment fees that are associated with vendors.
 -   On the Payment instruction page, create and maintain payment instructions.
 
-**[Statistics]**
+**Statistics**
 
 -   On the Aging period definitions page, set up user-defined intervals that are used to analyze the maturity distribution of vendor accounts.
 -   On the Line of business page, create the line of business (LOB) codes that are assigned to vendors.
 
-**[Tax 1099]**
+**Tax 1099**
 
 -   On the **1099 fields** page, verify and update the minimum amounts that must be reported to the Internal Revenue Service (IRS), based on the latest IRS requirements.
 
-## <a name="optional-setup-for-other-modules"></a>**[Optional setup] for other modules**
-**[Organization administration]**
+## <a name="optional-setup-for-other-modules"></a>**Optional setup for other modules**
+**Organization administration**
 
 -   On the Number sequences page, set up number sequence groups for invoice numbers.
 -   On the following pages, set up address information:
@@ -124,7 +130,7 @@ The additional setup pages are organized by functionality.
     -   NAF codes
     -   Import ZIP/postal codes
 
-**[General ledger]**
+**General ledger**
 
 -   On the Financial dimensions page, set up financial dimensions.
 -   On the following pages, set up tax information:
@@ -137,9 +143,11 @@ The additional setup pages are organized by functionality.
     -   Sales tax authorities
     -   Sales tax settlement periods
 
-**[Cash and bank management]**
+**Cash and bank management**
 
 -   On the Payment purpose codes page, set up the Central Bank purpose code.
+
+
 
 
 

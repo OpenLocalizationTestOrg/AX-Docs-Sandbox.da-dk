@@ -3,28 +3,32 @@ title: Budget planning justification documents
 description: Justification documents provide a narrative for those requesting a budget to explain why a specific budget is necessary.
 author: twheeloc
 manager: AnnBe
-ms.date: 2016-11-28 18 - 47 - 11
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations
+ms.search.scope: Operations, Core
 ms.custom: 259594
 ms.assetid: 52576fad-32b9-48f2-8197-c11ec313fc29
 ms.search.region: Global
 ms.author: ryansand
-ms.dyn365.ops.intro: 01-11-2016
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 2a60970e6fc31de5f5c38ba1cbb6a9101b45de99
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 6178addb9226912feb1974793525ab4ba9441193
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="budget-planning-justification-documents"></a>Budget planning justification documents
+
+[!include[banner](../includes/banner.md)]
+
 
 Justification documents provide a narrative for those requesting a budget to explain why a specific budget is necessary. 
 
@@ -65,6 +69,8 @@ A budget plan template is created by the budget manager in Microsoft Word and as
 1.  In Dynamics 365 for Operations, create a new budget plan or open an existing budget plan.
 2.  In the **Justification** drop-down menu, select **Create new justification**.
 3.  After filling in the details, select to upload the personalized document from the **Justification** drop-down menu.
+
+
 
 
 

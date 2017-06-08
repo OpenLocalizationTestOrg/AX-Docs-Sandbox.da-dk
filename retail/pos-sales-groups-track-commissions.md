@@ -3,29 +3,33 @@ title: Track commissions in POS using sales groups
 description: "It&quot;s a common retail practice to track sales by the associate who worked with the customer—providing assistance, up-selling, cross-selling, and processing the transaction."
 author: josaw1
 manager: AnnBe
-ms.date: 2016-12-02 20 - 08 - 17
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations
+ms.search.scope: Operations, Core
 ms.custom: 261234
 ms.assetid: 7cd68ecc-cc09-48ab-8cb8-48d5c304effa
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
-ms.dyn365.ops.intro: 01-11-2016
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 8ae177934da872172cfec166847e711de01a1e15
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 31f57519aa55a06256d2b31cc64d4a964d889555
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="track-commissions-in-pos-using-sales-groups"></a>Track commissions in POS using sales groups
+
+[!include[banner](includes/banner.md)]
+
 
 It's a common retail practice to track sales by the associate who worked with the customer—providing assistance, up-selling, cross-selling, and processing the transaction.
 
@@ -60,5 +64,7 @@ POS allows users to configure button grids, which are included in screen layouts
 
 ## <a name="calculating-commissions"></a>Calculating commissions
 Commission is calculated for the workers in the specified sales groups at the time of statement posting or sales order posting. The commission amount is determined based on the worker’s commission share, as defined in the sales group and the associated commission calculation settings for the customer and/or products on the transaction.
+
+
 
 

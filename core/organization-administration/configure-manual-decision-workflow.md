@@ -3,10 +3,10 @@ title: Configure a manual decision in a workflow
 description: This topic explains how to configure the properties of a manual decision.
 author: sericks007
 manager: AnnBe
-ms.date: 2016-09-16 19 - 48 - 55
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -14,17 +14,21 @@ ms.custom: 192101
 ms.assetid: 0bccad77-1a44-4f08-967b-12c62c02afc7
 ms.search.region: Global
 ms.author: donaldc
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 98371b2c533ca94469e65730a3f24a1153ef0c24
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: ac86ffa794b5fd92ca9aba24537fbc05057fe824
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="configure-a-manual-decision-in-a-workflow"></a>Configure a manual decision in a workflow
+
+[!include[banner](../includes/banner.md)]
+
 
 This topic explains how to configure the properties of a manual decision.
 
@@ -191,13 +195,11 @@ Follow these steps to specify who a manual decision should be assigned to.
     <td>Users in a specific organizational hierarchy</td>
     <td><ol>
     <li>After you select <strong>Hierarchy</strong>, on the <strong>Hierarchy selection</strong> tab, in the <strong>Hierarchy type</strong> list, select the type of hierarchy to assign the decision to.</li>
-    <li>The system must retrieve a range of user names from the hierarchy. These names represent users that the decision can be assigned to. Follow these steps to specify the starting point and ending point of the range of user names that the system retrieves:
-    <ol>
+    <li>The system must retrieve a range of user names from the hierarchy. These names represent users that the decision can be assigned to. Follow these steps to specify the starting point and ending point of the range of user names that the system retrieves: <ol>
     <li>To specify the starting point, select a person in the <strong>Start from</strong> list.</li>
     <li>To specify the ending point, click <strong>Add condition</strong>. Then enter a condition that determines where in the hierarchy the system stops retrieving names.</li>
     </ol></li>
-    <li>On the <strong>Hierarchy options</strong> tab, specify which users in the range the decision should be assigned to:
-    <ul>
+    <li>On the <strong>Hierarchy options</strong> tab, specify which users in the range the decision should be assigned to: <ul>
     <li><strong>Assign to all users retrieved</strong> – The decision is assigned to all users in the range.</li>
     <li><strong>Assign only to last user retrieved</strong> – The decision is assigned to only the last user in the range.</li>
     <li><strong>Exclude users with the following condition</strong> – The decision isn't assigned to any users in the range who meet a specific condition. Click <strong>Add condition</strong> to specify the condition.</li>
@@ -224,13 +226,11 @@ Follow these steps to specify who a manual decision should be assigned to.
     <td>A work item queue</td>
     <td><ol>
     <li>After you select <strong>Queue</strong>, click the <strong>Queue based</strong> tab.</li>
-    <li>To assign the decision to a specific queue, follow these steps:
-    <ol>
+    <li>To assign the decision to a specific queue, follow these steps: <ol>
     <li>In the <strong>Queue type</strong> list, select <strong>Work item queues</strong>.</li>
     <li>In the <strong>Queue name</strong> list, select the queue.</li>
     </ol></li>
-    <li>If a specific condition should determine which queue the decision is assigned to, follow these steps:
-    <ol>
+    <li>If a specific condition should determine which queue the decision is assigned to, follow these steps: <ol>
     <li>In the <strong>Queue type</strong> list, select <strong>Conditional work item queues</strong>.</li>
     <li>In the <strong>Queue name</strong> list, select <strong>Conditional queue</strong>.</li>
     </ol></li>
@@ -281,13 +281,11 @@ If a user doesn't make the decision in the allotted time, the decision is overdu
     <td>Users in a specific organizational hierarchy</td>
     <td><ol>
     <li>After you select <strong>Hierarchy</strong>, on the <strong>Hierarchy selection</strong> tab, in the <strong>Hierarchy type</strong> list, select the type of hierarchy to escalate the decision to.</li>
-    <li>The system must retrieve a range of user names from the hierarchy. These names represent users that the decision can be escalated to. Follow these steps to specify the starting point and ending point of the range of user names that the system retrieves:
-    <ol>
+    <li>The system must retrieve a range of user names from the hierarchy. These names represent users that the decision can be escalated to. Follow these steps to specify the starting point and ending point of the range of user names that the system retrieves: <ol>
     <li>To specify the starting point, select a person in the <strong>Start from</strong> list.</li>
     <li>To specify the ending point, click <strong>Add condition</strong>. Then enter a condition that determines where in the hierarchy the system stops retrieving names.</li>
     </ol></li>
-    <li>On the <strong>Hierarchy options</strong> tab, specify which users in the range the decision should be escalated to:
-    <ul>
+    <li>On the <strong>Hierarchy options</strong> tab, specify which users in the range the decision should be escalated to: <ul>
     <li><strong>Assign to all users retrieved</strong> – The decision is escalated to all users in the range.</li>
     <li><strong>Assign only to last user retrieved</strong> – The decision is escalated to only the last user in the range.</li>
     <li><strong>Exclude users with the following condition:</strong> – The decision isn't escalated to any users in the range who meet a specific condition. Click <strong>Add condition</strong> to specify the condition.</li>
@@ -335,6 +333,8 @@ Follow these steps if the decision must be made in a specific time. **Note:** Th
     -   **Years** – Select the day, week, and month that the decision must be made by. For example, you might want the decision to be made by Friday of the third week of December.
 
 4.  If the time limit is exceeded, the system makes the decision. In the **Action** list, select the option that the system should select.
+
+
 
 
 

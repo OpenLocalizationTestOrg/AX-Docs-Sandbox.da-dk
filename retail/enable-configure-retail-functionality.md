@@ -3,30 +3,34 @@ title: Initialize seed data in a new Retail environment
 description: This article describes the data that&quot;s created as part of the initialization process for Microsoft Dynamics 365 for Operations - Retail.
 author: josaw1
 manager: AnnBe
-ms.date: 2016-02-17 01 - 31 - 19
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 49621
 ms.assetid: 4dc762eb-190e-4485-8f55-b0cafc81bc37
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 9d7aa893ca9182160754cf61bfb9aeba78313744
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 534c9ab0f4d95f42d09f35d3197a2258c8d39526
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="initialize-seed-data-in-a-new-retail-environment"></a>Initialize seed data in a new Retail environment
+
+[!include[banner](includes/banner.md)]
+
 
 This article describes the data that's created as part of the initialization process for Microsoft Dynamics 365 for Operations - Retail.
 
@@ -57,6 +61,8 @@ Additionally, logging that is related to the payment card industry (PCI) is enab
 -   Retail channels
 -   Registers and devices
 -   Assortments
+
+
 
 
 

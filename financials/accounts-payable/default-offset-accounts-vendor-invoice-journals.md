@@ -3,28 +3,32 @@ title: Default offset accounts for vendor invoice journals and invoice approval 
 description: 
 author: twheeloc
 manager: AnnBe
-ms.date: 2016-03-08 17 - 49 - 18
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 62093
 ms.assetid: 553933ca-928d-4031-bb8c-f9cff458320b
 ms.search.region: global
 ms.author: abruer
-ms.dyn365.ops.intro: 01-02-2016
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: c5e0bd22d72c75574636276457736150f3d8dc9b
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 4691ac4456b08084bcd93f7a8447719a15299c93
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="default-offset-accounts-for-vendor-invoice-journals-and-invoice-approval-journals"></a>Default offset accounts for vendor invoice journals and invoice approval journals
+
+[!include[banner](../includes/banner.md)]
+
 
 
 
@@ -92,6 +96,8 @@ Use the following table to help decide where you should assign default accounts 
 </tr>
 </tbody>
 </table>
+
+
 
 
 

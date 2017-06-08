@@ -3,29 +3,33 @@ title: Import currency exchange rates
 description: "If a legal entity has received invoices in foreign currencies, it’s necessary to convert the foreign currency into the local currency. This means that up-to-date exchange rates for different currencies are required. This topic provides an overview of the required settings and processing for importing foreign exchange reference rates published over the Internet by the exchange rate providers, such as the European Central Bank and the Central Bank of Russia."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-12-02 21 - 05 - 37
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
-ms.search.scope: Operations
+ms.search.scope: Operations, Core
 ms.custom: 261374
 ms.assetid: b2b22868-de68-439f-914c-78c6930b7340
 ms.search.region: Global
 ms.author: epopov
-ms.dyn365.ops.intro: 01-11-2016
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: b97d17ceabfd25c52c5f0c1e96a123bae6941c5a
-ms.openlocfilehash: 92cdf8c684c98dfb33828f2ae0f42010e638290d
-ms.lasthandoff: 02/22/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 69a622f54581504989504a06f90d443a98ad2f63
+ms.contentlocale: da-dk
+ms.lasthandoff: 06/01/2017
 
 
 ---
 
 # <a name="import-currency-exchange-rates"></a>Import currency exchange rates
+
+[!include[banner](../includes/banner.md)]
+
 
 If a legal entity has received invoices in foreign currencies, it’s necessary to convert the foreign currency into the local currency. This means that up-to-date exchange rates for different currencies are required. This topic provides an overview of the required settings and processing for importing foreign exchange reference rates published over the Internet by the exchange rate providers, such as the European Central Bank and the Central Bank of Russia.
 
@@ -53,6 +57,8 @@ You can import exchange rates from the exchange rate providers source, and set t
 | **Create necessary currency pairs**    | This check box manages the automatic creation of currency pairs, if the currency pairs that are imported do not exist. This option might not be available for some providers.                                                                                                                                                                                               |
 | **Override existing exchange rates**   | This check box manages the update of the existing exchange rate for a currency pair when the exchange rate for a specific date already exists. If you do not select this check box, the exchange rate for the specific dates is not imported if another exchange rate already exists.                                                                                       |
 | **Prevent import on national holiday** | This check box manages the import of the exchange rate for a date that is a public holiday. For example, if you select this check box and use the European Central Bank as the exchange rate provider, the system will not update the exchange rate on a public holiday that is related to the current legal entity. This option might not be available for some providers. |
+
+
 
 
 
